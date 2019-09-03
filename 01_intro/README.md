@@ -13,6 +13,7 @@
 * Introductions
 * Syllabus
 * Slides: Introduction to ML
+* p5.js review
 
 #### Assignment:
 * Create a blog (or category on a blog) for the course.
