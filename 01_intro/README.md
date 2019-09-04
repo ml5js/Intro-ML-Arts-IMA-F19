@@ -24,7 +24,7 @@
 
 #### Assignment
 1. Create a blog (or category on a blog) for the course.
-2. Using the [A People’s Guide to AI by Mimi Onuoha](https://www.alliedmedia.org/files/peoples-guide-ai.pdf) design a scenario for machine learning (it can be as fanstastical as you like). Follow the "Every Day AI activity" on page 23-28 and Embodying Social Algorithms from 36-41 and document your answers to the questions and diagrams in a blog post. Consider the following questions:
+2. Using the [A People’s Guide to AI](https://www.alliedmedia.org/files/peoples-guide-ai.pdf) design a scenario for machine learning (it can be as fanstastical as you like). Follow the "Every Day AI activity" on page 23-28 and Embodying Social Algorithms from 36-41 and document your answers to the questions and diagrams in a blog post. Consider the following questions:
     * What are the inputs of your system?
     * What are the outputs of your system?
     * What is the training data? Does the data exist or does it need to be collected?
