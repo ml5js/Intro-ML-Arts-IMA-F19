@@ -86,11 +86,9 @@ Edition: 1st
 
 ## GRADING AND ATTENDANCE
 Grades for the course will follow the standard A through F letter grading system and will be determined by the following breakdown:
-
-20% Participation
-50% Assignments
-10% Reading responses and other written work
-20% Final project
+* 25% Participation
+* 50% Assignments (including reading responses and other written work)
+* 25% Final project
 
 At most two (2) unexcused absences will be tolerated without effect to your grade.  Any more than two (2) unexcused absences will result a lowering of your final grade by one whole grade for each unexcused absence.  For example, three (3) unexcused absences will result in your highest possible grade being a B instead of an A.  Four (4) unexcused absences will result in your highest possible grade being a C and so on.  Six (6) unexcused absences would result in an automatic F for the course.  Two (2) late arrivals will count for one (1) absence.
 
@@ -107,7 +105,7 @@ Classes will be a mixture of lecture, discussion, hands-on tutorials, homework r
 The course will be two (2) times per week for one hour and thirty minutes (1:30) for a total of 14 weeks.
 
 ## ASSIGNMENTS
-There will be regular assignments that are relevant the class material. These assignments must be documented (written description, photos, screenshots, screen recording, code, and video all qualify based on the assignment) on the class website. Each assignment is due by class time one week after they are assigned unless stated otherwise.
+There will be regular assignments that are relevant the class material. These assignments must be documented (written description, photos, screenshots, screen recording, code, and video all qualify based on the assignment) on a web platform such as a blog or google doc. You are required to link to your assignment from the course repo (you may choose to use a privately shared google doc or password protected website if you prefer.) The due dates are specified on the assignment page.
 
 It is expected that you will spend 6 to 8 hours a week on the class outside of class itself.  This will include reviewing material, reading, watching video, completing assignments and so on. Please budget your time accordingly.
 
