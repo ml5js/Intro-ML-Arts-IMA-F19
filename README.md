@@ -75,14 +75,8 @@ At the completion of this course, the student will:
 ## EQUIPMENT
 You will need a modern laptop (4 years old or younger is a good rule of thumb).  Most required software is freely available. The department has all required commercial software installed on laptops available for checkout.
 
-## COURSE TEXTS and MATERIALS not provided
-
-[Deep Learning with JavaScript: Neural Networks in TensorFlow.js](https://amzn.to/2Z1Ie1L)
-Authors: Shanqing Cai, Stanley Bileschi, Eric D. Nielsen with Francois Chollet
-ISBN: 9781617296178
-Publisher: Manning Publications
-Publication Date: Fall 2019
-Edition: 1st
+## COURSE TEXTS
+There is no textbook for the class. Readings and videos will be assigned on the individual session notes pages.  
 
 ## GRADING AND ATTENDANCE
 Grades for the course will follow the standard A through F letter grading system and will be determined by the following breakdown:
