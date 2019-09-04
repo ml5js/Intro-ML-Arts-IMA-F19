@@ -13,6 +13,7 @@
 * Introductions
 * Syllabus
 * [Slides: Introduction to ML](https://docs.google.com/presentation/d/1QgJo12GrB_dMUVZ89SfP4sKzTMmOlD9a8aeoDCo7vag/edit?usp=sharing)
+* p5.js review
 
 #### Assignment:
 * Create a blog (or category on a blog) for the course.
