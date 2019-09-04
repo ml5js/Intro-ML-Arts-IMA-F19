@@ -3,7 +3,7 @@
 ## OUTLINE
 
 ### 1: Intro!
-* Session 1 (M 9/3): Introduction to Machine Learning
+* Session 1 (M 9/3): [Introduction to Machine Learning](01_intro)
 
 ### 2: Machine Learning Models 1
 * Session 1 (M 9/9): Image Classification
