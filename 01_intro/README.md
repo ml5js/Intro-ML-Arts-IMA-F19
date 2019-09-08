@@ -22,8 +22,14 @@
 * Watch [Seeing Machines Think — Martin Wattenberg and Fernanda Viégas](https://youtu.be/ugkfmHBW74Q)
 * Watch [Kyle McDonald - Weird Intelligence](https://vimeo.com/304110435)
 
-### Assignment
-1. Create a blog (or category on a blog) for the course. (You may use any means for publishing your assignments including, but not limited to a GitHub markdown file, google doc, medium post, etc.)
+#### p5.js review
+* [Learning While Mkaing p5.js with Lauren McCarthy](https://youtu.be/1k3X4DLDHdc)
+* [Introducing the p5.js web editor!](https://youtu.be/dtHxDggkBYc)
+* [p5.js web editor with Cassie Tarakajian](https://youtu.be/x1rJJRVTpAI)
+* [Code! Programming with p5.js playlist](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+
+#### Assignment
+1. Create a blog (or category on a blog) for the course. (You may use any means for publishing your assignments including, but not limited to a GitHub markdown file, google doc, medium post, etc.) [This wiki page has resources and information on creating your own blog](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Blog-Resources).
 2. Using the [A People’s Guide to AI](https://www.alliedmedia.org/files/peoples-guide-ai.pdf) design a scenario for machine learning (it can be as fanstastical as you like). Follow the "Every Day AI activity" on page 23-28 and Embodying Social Algorithms from 36-41 and document your answers to the questions and diagrams in a blog post. Consider the following questions:
     * What are the inputs of your system?
     * What are the outputs of your system?
