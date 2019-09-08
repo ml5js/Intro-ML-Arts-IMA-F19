@@ -23,7 +23,7 @@
 * Watch [Kyle McDonald - Weird Intelligence](https://vimeo.com/304110435)
 
 #### Assignment
-1. Create a blog (or category on a blog) for the course. (You may use any means for publishing your assignments including, but not limited to a GitHub markdown file, google doc, medium post, etc.) 
+1. Create a blog (or category on a blog) for the course. (You may use any means for publishing your assignments including, but not limited to a GitHub markdown file, google doc, medium post, etc.) [This wiki page has resources and information on creating your own blog](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Blog-Resources).
 2. Using the [A People’s Guide to AI](https://www.alliedmedia.org/files/peoples-guide-ai.pdf) design a scenario for machine learning (it can be as fanstastical as you like). Follow the "Every Day AI activity" on page 23-28 and Embodying Social Algorithms from 36-41 and document your answers to the questions and diagrams in a blog post. Consider the following questions:
     * What are the inputs of your system?
     * What are the outputs of your system?
