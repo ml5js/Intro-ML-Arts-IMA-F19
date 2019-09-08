@@ -11,8 +11,39 @@
 * Learn how to create an image classifier with ml5.js and MobileNet.
 * Understand how the MobileNet model was trained, specifically the origins and collection methodology for the training.
 
-### Demo: Code a machine learning image classifier using ml5.js and MobileNet.
+### ml5.js video tutorials
+* [A Beginner's Guide to Machine Learning with ml5.js - video tutorial](https://youtu.be/jmznx0Q1fP0?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y)
+* [ml5.js: Image Classification with MobileNet - video tutorial](https://youtu.be/yNkAuWz5lnY?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y)
+* [ml5.js: Webcam Image Classification - video tutorial](https://youtu.be/D9BoBSkLvFo?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y)
+* [ml5.js: Transfer Learning with Feature Extractor - video tutorial](https://youtu.be/kRpZ5OqUY6Y?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y)
+* [ml5.js: Feature Extractor Classification - video tutorial](https://youtu.be/eeO-rWYFuG0?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y)
+* [ml5.js: Feature Extractor Regression - video tutorial](https://youtu.be/aKgq0m1YjvQ?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y)
 
+### ml5.js resources
+* [ml5 website](https://ml5js.org)
+* [ml5 web editor examples](https://github.com/ml5js/ml5-examples/)
+
+### ml5 code editor examples
+* [Drag and Drop Image Classification](https://editor.p5js.org/ml5/sketches/S1PLinE27)
+* [Webcam Image Classification](https://editor.p5js.org/ml5/sketches/IlF1JFvWjc)
+* [Webcam Image Classification Text to Speech](https://editor.p5js.org/ml5/sketches/Ry7EL4JvA3)
+* [Image Classification Multiple Images](https://editor.p5js.org/ml5/sketches/f3rqIqNey5)
+* [Image Classification Scavenger Hunt](https://editor.p5js.org/ml5/sketches/APzpeXOuEQ)
+
+### Defining Machine Learning yet again
+* "A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E." -- Tom Mitchell (1998): [Machine Learning book](http://amzn.to/2nLdRgQ).
+  * Example: classifying images of dogs and cats.
+    * E = Watching you classify images as dogs or cats.
+    * T = Classifying images as dogs or cats.
+    * P = The % of images correctly classified.
+
+## Classification and Regression
+* Classification and regression both involve making a "prediction" based on input data.
+* Classification refers to predicting an output with a discrete set of possibilities like a set of categories or labels. For example: "Given an input image, is it a dog or cat?"
+* Regression refers to predicting an "continuous" output (a fancy way of saying number). For example: "Given the number of bedrooms, what is the price of a house?" or "Given an input image of a cat, how much does the cat weigh?"
+
+## History of Deep Learning
+* Andrey Kurenkov's ['Brief' History of Neural Nets and Deep Learning](http://www.andreykurenkov.com/writing/a-brief-history-of-neural-nets-and-deep-learning/)
 ### Assignment:
 1. Watch [But what *is* a Neural Network?](https://youtu.be/aircAruvnKk) by 3Blue1Brown
 2. Read [ImageNet: The Data That Transformed AI Research—and Possibly the World](https://qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-possibly-the-world/) by Dave Gershgorn (Note: Fei-Fei Li is no longer at Google; she is currently Co-Director of the Stanford Human-Centered AI Institute)
@@ -27,7 +58,14 @@
 * Understand the process of “transfer learning.”
 * Learn to save a trained model for re-use later.
 
-### Demo: Code your own “teachable machine” with ml5.js.
+## Supervised Learning
+* From Andrew Ng: "In supervised learning, we are given a data set and already know what our correct output should look like, having the idea that there is a relationship between the input and the output."
+* Adapted from [Nature of Code Chapter 10](http://natureofcode.com/book/chapter-10-neural-networks/): Supervised Learning is a strategy that involves a "teacher" that trains the learning system. For example, consider facial recognition. The "teacher" shows the network a bunch of faces (the teacher already knows the names associated with each face). The learning system makes its guesses and the teacher provides the answers. The learning system can then compare its answers to the known “correct” ones and make adjustments according to its errors.
+
+### ml5.js video tutorials
+* [ml5.js: Transfer Learning with Feature Extractor - video tutorial](https://youtu.be/kRpZ5OqUY6Y?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y)
+* [ml5.js: Feature Extractor Classification - video tutorial](https://youtu.be/eeO-rWYFuG0?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y)
+* [ml5.js: Feature Extractor Regression - video tutorial](https://youtu.be/aKgq0m1YjvQ?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y)
 
 ### Related Projects:
 * [Webcam Pacman](https://storage.googleapis.com/tfjs-examples/webcam-transfer-learning/dist/index.html) by Google’s TensorFlow.js Team
