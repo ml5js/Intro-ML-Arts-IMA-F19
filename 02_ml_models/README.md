@@ -37,18 +37,17 @@
     * T = Classifying images as dogs or cats.
     * P = The % of images correctly classified.
 
-## Classification and Regression
+### Classification and Regression
 * Classification and regression both involve making a "prediction" based on input data.
 * Classification refers to predicting an output with a discrete set of possibilities like a set of categories or labels. For example: "Given an input image, is it a dog or cat?"
 * Regression refers to predicting an "continuous" output (a fancy way of saying number). For example: "Given the number of bedrooms, what is the price of a house?" or "Given an input image of a cat, how much does the cat weigh?"
 
-## History of Deep Learning
-* Andrey Kurenkov's ['Brief' History of Neural Nets and Deep Learning](http://www.andreykurenkov.com/writing/a-brief-history-of-neural-nets-and-deep-learning/)
 ### Assignment:
 1. Watch [But what *is* a Neural Network?](https://youtu.be/aircAruvnKk) by 3Blue1Brown
-2. Read [ImageNet: The Data That Transformed AI Research—and Possibly the World](https://qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-possibly-the-world/) by Dave Gershgorn (Note: Fei-Fei Li is no longer at Google; she is currently Co-Director of the Stanford Human-Centered AI Institute)
-3. Explore [ImageNet](http://image-net.org/index)
-4. TBA (exercise related to running ml5 image webcam example and/or teachable machine training -- no code writing just yet.)
+2. Read Andrey Kurenkov's ['Brief' History of Neural Nets and Deep Learning](http://www.andreykurenkov.com/writing/a-brief-history-of-neural-nets-and-deep-learning/)
+3. Read [ImageNet: The Data That Transformed AI Research—and Possibly the World](https://qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-possibly-the-world/) by Dave Gershgorn (Note: Fei-Fei Li is no longer at Google; she is currently Co-Director of the Stanford Human-Centered AI Institute)
+4. Explore [ImageNet](http://image-net.org/index)
+5. TBA (exercise related to running ml5 image webcam example and/or teachable machine training -- no code writing just yet.)
 
 ## Session 2: Transfer learning
 
