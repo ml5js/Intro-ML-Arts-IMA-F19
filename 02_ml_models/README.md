@@ -1,6 +1,6 @@
 # Using a Machine Learning Model
 
-## Session 1: Introduction to ml5.js and pre-trained models
+## Session A: Introduction to ml5.js and pre-trained models
 
 ### Objectives:
 * Understand the concept of a “machine learning model.”
@@ -46,12 +46,12 @@
 1. Read Andrey Kurenkov's ['Brief' History of Neural Nets and Deep Learning](http://www.andreykurenkov.com/writing/a-brief-history-of-neural-nets-and-deep-learning/)
 2. Read [ImageNet: The Data That Transformed AI Research—and Possibly the World](https://qz.com/1034972/the-data-that-changed-the-direction-of-ai-research-and-possibly-the-world/) by Dave Gershgorn (Note: Fei-Fei Li is no longer at Google; she is currently Co-Director of the Stanford Human-Centered AI Institute)
 
-### Assignment
+### Assignment 2A
 1. Explore [ImageNet](http://image-net.org/index). What surprises you about this data set? What questions do you have? Thinking back to last week’s assignment, can you think of any ethical considerations around how this data was collected Are there privacy considerations with the data?
 2. Using the [ml5.js examples above](), try running image classification on a variety of images. Pick at least 10 objects in your room. How many of these does it recognize? What other aspects of the image affect the classification, including but not limited to position, scale, lighting, etc.
-3. Document your thoughts on MobileNet and image classification in a blog post and add a link to the [Assignment 2 Wiki](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Assignment-1).
+3. Document your thoughts on MobileNet and image classification in a blog post and add a link to the [Assignment 2 Wiki](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Assignment-2a).
 
-## Session 2: Transfer learning
+## Session B: Transfer learning
 
 ### Objectives:
 * Diagram and define the layers of a neural network, introducing the concept of a “convolutional layer.”
