@@ -49,7 +49,7 @@
 ### Assignment 2A
 1. Explore [ImageNet](http://image-net.org/index). What surprises you about this data set? What questions do you have? Thinking back to last week’s assignment, can you think of any ethical considerations around how this data was collected Are there privacy considerations with the data?
 2. Using the [ml5.js examples above](), try running image classification on a variety of images. Pick at least 10 objects in your room. How many of these does it recognize? What other aspects of the image affect the classification, including but not limited to position, scale, lighting, etc.
-3. Document your thoughts on MobileNet and image classification in a blog post and add a link to the [Assignment 2 Wiki](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Assignment-2a).
+3. Document your thoughts on MobileNet and image classification in a blog post and add a link to the [Assignment 2A Wiki](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Assignment-2a).
 
 ## Session B: Transfer learning
 
