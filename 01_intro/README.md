@@ -1,21 +1,21 @@
 # Introduction
 
-### Welcome and Introduction to Machine Learning
+## Welcome and Introduction to Machine Learning
 
-#### Objectives:
+### Objectives:
 * Define AI, machine learning, and deep learning.
 * Overview of applications of machine learning, especially for art and design.
 * History of machine learning.
 * Overview of tools for machine learning.
 * Classification and Regression
 
-#### Outline:
+### Outline:
 * Introductions
 * Syllabus
 * [Slides: Introduction to ML](https://docs.google.com/presentation/d/1QgJo12GrB_dMUVZ89SfP4sKzTMmOlD9a8aeoDCo7vag/edit?usp=sharing)
 * p5.js review
 
-#### Reading / Viewing:
+### Reading / Viewing:
 * Read [What is machine learning? We drew you another flowchart](https://www.technologyreview.com/s/612437/what-is-machine-learning-we-drew-you-another-flowchart/) by Karen Hao
 * Read [A People’s Guide to AI](https://www.alliedmedia.org/files/peoples-guide-ai.pdf) by Mimi Onuoha and Mother Cyborg (Diana Nucera)
 * Read [Data & Society’s Algorithmic Accountability: A Primer](https://datasociety.net/wp-content/uploads/2018/04/Data_Society_Algorithmic_Accountability_Primer_FINAL-4.pdf)
@@ -35,6 +35,6 @@
     * What are the outputs of your system?
     * What is the training data? Does the data exist or does it need to be collected?
     * What are the ethical considerations of collecting this data and/or applying this model? Is there a danger that the model will harm individual people or a community? Are there privacy considerations with the data?
-3. Post a link to your post on the [Homework Wiki Page for Assignment 1](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Assignment-1) 
+3. Post a link to your post on the [Homework Wiki Page for Assignment 1](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Assignment-1)
 
 
