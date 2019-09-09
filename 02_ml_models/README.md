@@ -23,7 +23,7 @@
 
 ### ml5 code editor examples
 * [Image Classification](https://editor.p5js.org/ml5/sketches/DUxe1Z0DXG)
-* Drag and Drop Image Classification -- link to come
+* [Drag and Drop Image Classification](https://editor.p5js.org/ima_ml/sketches/C5Ywejvuo)
 * [Webcam Image Classification](https://editor.p5js.org/ml5/sketches/IlF1JFvWjc)
 * [Webcam Image Classification Text to Speech](https://editor.p5js.org/ml5/sketches/Ry7EL4JvA3)
 * [Image Classification Multiple Images](https://editor.p5js.org/ml5/sketches/f3rqIqNey5)
