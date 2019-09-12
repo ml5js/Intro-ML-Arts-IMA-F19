@@ -81,5 +81,7 @@
 2. Read [How to Build a Teachable Machine with TensorFlow.js](https://observablehq.com/@nsthorat/how-to-build-a-teachable-machine-with-tensorflow-js)
 
 ### Assignment 2B:
-1. Train your own image classifer using transfer learning and ml5.js and apply the model to an interactive p5.js sketch. You can train the model with Teachable Machine or with your own ml5.js code. Feel free to try sound instead of or in addition to images. You may also choose to experiment with a "regression" rather than classification.
+1. Train your own image classifer using transfer learning and ml5.js and apply the model to an interactive p5.js sketch. You can train the model with Teachable Machine (see links provided over e-mail) or with your own ml5.js code. Feel free to try sound instead of or in addition to images. You may also choose to experiment with a "regression" rather than classification. 
+    * [Teachable Machine ml5.js example for Image Classification](https://editor.p5js.org/ima_ml/sketches/8Wmwnig7-)
+    * [Teachable Machine ml5.js example for Sound Classification](https://editor.p5js.org/ima_ml/sketches/xcdqphiVj)
 2. Document your exercise in a blog post and add a link to the post and your p5 sketch on the [Assignment 2B Wiki](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Assignment-2b).
