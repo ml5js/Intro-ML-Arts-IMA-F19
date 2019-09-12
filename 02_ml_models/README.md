@@ -60,7 +60,7 @@
 * Learn to save a trained model for re-use later.
 * [Week 2 Slides](https://docs.google.com/presentation/d/10e49FloSXEBOOcC26CKyncPDcM0qDrHYG34C_JMZdEo/edit?usp=sharing)
 
-## Supervised Learning
+### Supervised Learning
 * From Andrew Ng: "In supervised learning, we are given a data set and already know what our correct output should look like, having the idea that there is a relationship between the input and the output."
 * Adapted from [Nature of Code Chapter 10](http://natureofcode.com/book/chapter-10-neural-networks/): Supervised Learning is a strategy that involves a "teacher" that trains the learning system. For example, consider facial recognition. The "teacher" shows the network a bunch of faces (the teacher already knows the names associated with each face). The learning system makes its guesses and the teacher provides the answers. The learning system can then compare its answers to the known “correct” ones and make adjustments according to its errors.
 
