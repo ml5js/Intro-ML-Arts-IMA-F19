@@ -68,6 +68,7 @@
 * [ml5.js: Transfer Learning with Feature Extractor - video tutorial](https://youtu.be/kRpZ5OqUY6Y?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y)
 * [ml5.js: Feature Extractor Classification - video tutorial](https://youtu.be/eeO-rWYFuG0?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y)
 * [ml5.js: Feature Extractor Regression - video tutorial](https://youtu.be/aKgq0m1YjvQ?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y)
+* [ml5.js: Save/Load Model - video tutorial](https://youtu.be/eU7gIy3xV30?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y)
 
 ### Related Projects:
 * [Webcam Pacman](https://storage.googleapis.com/tfjs-examples/webcam-transfer-learning/dist/index.html) by Google’s TensorFlow.js Team
