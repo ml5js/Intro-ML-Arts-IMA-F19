@@ -29,7 +29,7 @@
 ### Reading Responses
 * Are **new questions** asked?
 * Is there a **point of view** / argument made?
-* Are **dditional sources and references** mentioned?
+* Are **additional sources and references** mentioned?
 * Is the post funny, novel, or otherwise unique?
 
 ## Sources
