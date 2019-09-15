@@ -40,10 +40,10 @@
 In each example, a p5.js sketch captures some input data and sends it to an Arduino. The Arduino sketch tells the microcontroller how to read that data and what to do with it. This type of communication is called [asynchronous serial communication](https://itp.nyu.edu/physcomp/lessons/serial-communication/serial-communication-the-basics/). (Fun fact: the Arduino can *also* capture data and send it to a p5.js sketch!)
 
 * Webcam Image Classification using MobileNet to Turn LED On/Off
-    * [p5.js sketch with ml5 + p5.serialport](https://editor.p5js.org/enickles/sketches/6vnrbkcrN) (move to ima_ml account)
+    * [p5.js sketch with ml5 + p5.serialport](https://editor.p5js.org/ima_ml/sketches/QyfDUvIK2)
     * [Arduino sketch](examples_arduinoSketches/Example1_MobileNet_LED_On_Off.ino)
 * Pose Detection using PoseNet to Fade LED
-    * [p5.js sketch with ml5 + p5.serialport](https://editor.p5js.org/enickles/sketches/0dgoVkNyu) (move to ima_ml account)
+    * [p5.js sketch with ml5 + p5.serialport](https://editor.p5js.org/ima_ml/sketches/WAJHThO1G)
     * [Arduino sketch](examples_arduinoSketches/Example2_PoseNet_Fade_LED.ino)
 
 ### Materials for Examples
@@ -60,7 +60,7 @@ In each example, a p5.js sketch captures some input data and sends it to an Ardu
 
 ### Troubleshooting Serial Communication
 For the above examples, if nothing happens on the Arduino when you start the p5.js sketch, use this checklist to troubleshoot: [Serial Communication Checklist](serial_comm_checklist.md)
-    
+
 ### Additional Resources
 * [Asynchronous Serial Communication: The Basics](https://itp.nyu.edu/physcomp/lessons/serial-communication/serial-communication-the-basics/)
 * [Lab: Serial output from P5.js](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-serial-output-from-p5-js/)
@@ -73,7 +73,7 @@ For the above examples, if nothing happens on the Arduino when you start the p5.
 
 
 ### Assignment 3:
-1. Prototype a physical interaction as the output of a machine learning model using any of the tools or techniques demonstrated in weeks 2 and 3. This can be a new idea or build off of your week 2 assignment. Here are some questions to explore: 
+1. Prototype a physical interaction as the output of a machine learning model using any of the tools or techniques demonstrated in weeks 2 and 3. This can be a new idea or build off of your week 2 assignment. Here are some questions to explore:
     * For image classification, how might you use confidence score data as a type of creative input?
     * For pose detection, how might you work with multiple keypoints?
     * What other creative outputs can you use? speakers? motors? what else?
