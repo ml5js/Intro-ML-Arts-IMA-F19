@@ -6,7 +6,7 @@
 * Understanding how to use pre-trained models other than image classification.
 * Ability to work with PoseNet and ml5.js
 * Ability to work with  Image Segmentation models (UNet and BodyPix) and ml5.js.
-* Week 3 Slides <-> link to come
+* [Week 3 Slides](https://docs.google.com/presentation/d/1NAIpbSrlXf4dK1ABQa2Mazzqfk-ECc2EK4-UIon9ZZw/edit?usp=sharing)
 
 ### ml5 documentation
 * [PoseNet](https://ml5js.org/reference/api-PoseNet/)
