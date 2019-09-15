@@ -5,12 +5,17 @@
 ### Objectives:
 * Understanding how to use pre-trained models other than image classification.
 * Ability to work with PoseNet and ml5.js
-* Ability to work with UNet Image Segmenttaion and ml5.js.
+* Ability to work with  Image Segmentation models (UNet and BodyPix) and ml5.js.
 * Week 3 Slides <-> link to come
 
 ### ml5 video tutorials
 
 ### ml5 code editor examples
+* [PoseNet Webcam Part Selection](https://editor.p5js.org/ml5/sketches/I-alLCVhX3S)
+* [PoseNet Webcam Full Skeleton](https://editor.p5js.org/ml5/sketches/5FZeotHo76R)
+* [PoseNet Single Image](https://editor.p5js.org/ml5/sketches/MmUoz2_thEa) -- This is broken at the moment
+
+
 
 ### Related Projects
 * [Sidewalk Orchestra](https://twitter.com/c_valenzuelab/status/979131716907536384) by Cristóbal Valenzuela
