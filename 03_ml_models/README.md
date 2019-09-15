@@ -37,12 +37,6 @@
     * [The Treachery of Sanctuary](https://www.youtube.com/watch?v=I5__9hq-yas&feature=youtu.be) by Chris Milk
     * [Gait Analysis](https://www.runnersneed.com/expert-advice/gear-guides/gait-analysis.html) from runnersneed
 
-### Assignment
-1. Read [Real-Time Human Pose Estimation in the Browser with TensorFlow.js](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5) by Dan Oved, with editing and illustrations by Irene Alvarado and Alexis Gallo.
-2. Read [Mixing movement and machine](https://medium.com/artists-and-machine-intelligence/mixing-movement-and-machine-848095ea5596) by Maya Man
-4. Read [Review of Deep Learning Algorithms for Image Semantic Segmentation](https://medium.com/@arthur_ouaknine/review-of-deep-learning-algorithms-for-image-semantic-segmentation-509a600f7b57) by Arthur Ouaknine
-3. Explore [COCO Dataset](http://cocodataset.org/#explore). What surprises you about this data set? How is it similar or different to ImageNet? What questions do you have? Can you think of any ethical considerations around how this data was collected? Are there privacy considerations with the data?
-
 ## Session B: Physical interaction
 
 ### Objectives:
@@ -84,9 +78,13 @@ For the above examples, if nothing happens on the Arduino when you start the p5.
 * [Now You Are In the Conversation](https://chelseachenchen.com/portfolio/now-you-are-in-the-conversation/) by Chelsea Chen Chen
 
 
-### Assignment 3:
-1. Prototype a physical interaction as the output of a machine learning model using any of the tools or techniques demonstrated in weeks 2 and 3. This can be a new idea or build off of your week 2 assignment. Here are some questions to explore:
+### Assignment 3 Due Sunday September 22 at 12pm:
+1. Read [Real-Time Human Pose Estimation in the Browser with TensorFlow.js](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5) by Dan Oved, with editing and illustrations by Irene Alvarado and Alexis Gallo.
+2. Read [Mixing movement and machine](https://medium.com/artists-and-machine-intelligence/mixing-movement-and-machine-848095ea5596) by Maya Man
+4. Read [Review of Deep Learning Algorithms for Image Semantic Segmentation](https://medium.com/@arthur_ouaknine/review-of-deep-learning-algorithms-for-image-semantic-segmentation-509a600f7b57) by Arthur Ouaknine
+3. Explore [COCO Dataset](http://cocodataset.org/#explore). What surprises you about this data set? How is it similar or different to ImageNet? What questions do you have? Can you think of any ethical considerations around how this data was collected? Are there privacy considerations with the data?
+4. Prototype a physical interaction as the output of a machine learning model using any of the tools or techniques demonstrated in weeks 2 and 3. This can be a new idea or build off of your week 2 assignment. Here are some questions to explore:
     * For image classification, how might you use confidence score data as a type of creative input?
     * For pose detection, how might you work with multiple keypoints?
     * What other creative outputs can you use? speakers? motors? what else?
-2. Document your exercise in a blog post and add a link to the post and your sketch on the [Assignment 3 Wiki](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Assignment-3). In your blog post, include visual documentation such as a recorded screen capture / video of your training session and sketch running in the browser. How the readings inform your idea and development of the project?
+5. Document your exercise in a blog post and add a link to the post and your sketch on the [Assignment 3 Wiki](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Assignment-3). In your blog post, include visual documentation such as a recorded screen capture / video of your training session and sketch running in the browser. How the readings above inform your idea and development of the project? Include a response to COCO dataset question prompts.
