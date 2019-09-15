@@ -8,13 +8,20 @@
 * Ability to work with  Image Segmentation models (UNet and BodyPix) and ml5.js.
 * Week 3 Slides <-> link to come
 
+### ml5 documentation
+* [PoseNet](https://ml5js.org/reference/api-PoseNet/)
+* [UNet](https://ml5js.org/reference/api-UNET/)
+* [BodyPix](https://ml5js.org/reference/api-BodyPix/)
+
 ### ml5 video tutorials
+* [Hour of Code PoseNet video](https://youtu.be/EA3-k9mnLHs)
 
 ### ml5 code editor examples
 * [PoseNet Webcam Part Selection](https://editor.p5js.org/ml5/sketches/I-alLCVhX3S)
 * [PoseNet Webcam Full Skeleton](https://editor.p5js.org/ml5/sketches/5FZeotHo76R)
 * [PoseNet Single Image](https://editor.p5js.org/ml5/sketches/MmUoz2_thEa) -- This is broken at the moment
-
+* [UNet Image Segmentation](https://editor.p5js.org/ima_ml/sketches/ii30sqpgL)
+* [BodyPix Image Segmentation](https://editor.p5js.org/ima_ml/sketches/-R3ybO0uz)
 
 
 ### Related Projects
