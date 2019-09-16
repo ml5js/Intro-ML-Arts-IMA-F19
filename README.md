@@ -9,7 +9,7 @@
 * Session 1 (M 9/9): Image Classification
 * Session 2 (W 9/11): Transfer learning
 
-### 3: Machine Learning Models 2
+### 3: [Machine Learning Models 2](03_ml_models)
 * Session 1 (M 9/16): Pre-trained models
 * Session 2 (W 9/18): Physical Interaction
 
