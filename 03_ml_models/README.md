@@ -45,12 +45,18 @@
 ### Code Examples
 In each example, a p5.js sketch captures some input data and sends it to an Arduino. The Arduino sketch tells the microcontroller how to read that data and what to do with it. This type of communication is called [asynchronous serial communication](https://itp.nyu.edu/physcomp/lessons/serial-communication/serial-communication-the-basics/). (Fun fact: the Arduino can *also* capture data and send it to a p5.js sketch!)
 
-* Webcam Image Classification using MobileNet to Turn LED On/Off
+1. Webcam Image Classification using MobileNet to Turn LED On/Off
     * [p5.js sketch with ml5 + p5.serialport](https://editor.p5js.org/ima_ml/sketches/QyfDUvIK2)
-    * [Arduino sketch](examples_arduinoSketches/Example1_MobileNet_LED_On_Off.ino)
-* Pose Detection using PoseNet to Fade LED
+    * [Arduino sketch](examples/Example1_MobileNet_LED_On_Off.ino)
+    * [Arduino diagram](images/Examples1_2_arduinoDiagram.png)
+2. Pose Detection using PoseNet to Fade LED
     * [p5.js sketch with ml5 + p5.serialport](https://editor.p5js.org/ima_ml/sketches/WAJHThO1G)
-    * [Arduino sketch](examples_arduinoSketches/Example2_PoseNet_Fade_LED.ino)
+    * [Arduino sketch](examples/Example2_PoseNet_Fade_LED.ino)
+    * [Arduino diagram](images/Examples1_2_arduinoDiagram.png)
+3. Multiple Pose Detection using PoseNet to Turn LEDs On/Off
+    * [p5.js sketch with ml5 + p5.serialport](https://editor.p5js.org/ima_ml/sketches/wcvphkn3R)
+    * [Arduino sketch](examples/Example3_PoseNet_Multiple.ino)
+    * [Arduino diagram](images/Example3_arduinoDiagram.png)
 
 ### Materials for Examples
 * [p5.js web editor](https://editor.p5js.org)
@@ -59,23 +65,24 @@ In each example, a p5.js sketch captures some input data and sends it to an Ardu
 * 1 USB Cable
 * 1 Arduino Uno
 * 1 Half-size Breadboard
-* 1 LED
-* 1 220 Ohm Resistor
+* 3 LEDs
+* 3 220 Ohm Resistor
 * Jumper Wires
-* [Image of an Arduino connected to an LED](images/arduino_fritzingDiagram.png)
 
 ### Troubleshooting Serial Communication
-For the above examples, if nothing happens on the Arduino when you start the p5.js sketch, use this checklist to troubleshoot: [Serial Communication Checklist](serial_comm_checklist.md)
+For the above examples, if nothing happens on the Arduino when you start the p5.js sketch, use this checklist to troubleshoot: [Serial Communication Checklist](serial_checklist.md)
 
 ### Additional Resources
 * [Asynchronous Serial Communication: The Basics](https://itp.nyu.edu/physcomp/lessons/serial-communication/serial-communication-the-basics/)
-* [Lab: Serial output from P5.js](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-serial-output-from-p5-js/)
-* [p5.serialport library](https://github.com/p5-serial/p5.serialport)
+* [Lab: Serial Output from P5.js](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-serial-output-from-p5-js/)
+* [p5.Serialport Library](https://github.com/p5-serial/p5.serialport)
+* [Recent Updates to p5.Serial Library](https://medium.com/processing-foundation/updating-and-improving-p5-serial-9e38f70946ba) by Jiwon Shin
 
 
 ### Related Projects
 * [PomPom Mirror](https://vimeo.com/128375543) by Danny Rozin
 * [Now You Are In the Conversation](https://chelseachenchen.com/portfolio/now-you-are-in-the-conversation/) by Chelsea Chen Chen
+* [The Hand (Rock Paper Scissors)](https://tongwumedia.com/blog/the-hand) by Tong Wu and Nick Wallace
 
 
 ### Assignment 3 Due Sunday September 22 at 12pm:
@@ -84,7 +91,8 @@ For the above examples, if nothing happens on the Arduino when you start the p5.
 4. Read [Review of Deep Learning Algorithms for Image Semantic Segmentation](https://medium.com/@arthur_ouaknine/review-of-deep-learning-algorithms-for-image-semantic-segmentation-509a600f7b57) by Arthur Ouaknine
 3. Explore [COCO Dataset](http://cocodataset.org/#explore). What surprises you about this data set? How is it similar or different to ImageNet? What questions do you have? Can you think of any ethical considerations around how this data was collected? Are there privacy considerations with the data?
 4. Prototype a physical interaction as the output of a machine learning model using any of the tools or techniques demonstrated in weeks 2 and 3. This can be a new idea or build off of your week 2 assignment. Here are some questions to explore:
-    * For image classification, how might you use confidence score data as a type of creative input?
+    * How might you use confidence score data as a type of creative input?
     * For pose detection, how might you work with multiple keypoints?
+    * If you're working with multiple poses, how might people work together or against each other to trigger events?
     * What other creative outputs can you use? speakers? motors? what else?
 5. Document your exercise in a blog post and add a link to the post and your sketch on the [Assignment 3 Wiki](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Assignment-3). In your blog post, include visual documentation such as a recorded screen capture / video of your training session and sketch running in the browser. How the readings above inform your idea and development of the project? Include a response to COCO dataset question prompts.
