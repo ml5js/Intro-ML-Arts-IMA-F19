@@ -75,6 +75,9 @@ For the above examples, if nothing happens on the Arduino when you start the p5.
 ### Additional Resources
 * [Asynchronous Serial Communication: The Basics](https://itp.nyu.edu/physcomp/lessons/serial-communication/serial-communication-the-basics/)
 * [Lab: Serial Output from P5.js](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-serial-output-from-p5-js/)
+* [Servo Motor Control with an Arduino](https://itp.nyu.edu/physcomp/labs/labs-arduino-digital-and-analog/servo-motor-control-with-an-arduino/)
+* [Tone Output Using An Arduino](https://itp.nyu.edu/physcomp/labs/labs-arduino-digital-and-analog/tone-output-using-an-arduino/)
+* [Two-Way (Duplex) Serial Communication Using An Arduino and P5.js](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/two-way-duplex-serial-communication-using-p5js/)
 * [p5.Serialport Library](https://github.com/p5-serial/p5.serialport)
 * [Recent Updates to p5.Serial Library](https://medium.com/processing-foundation/updating-and-improving-p5-serial-9e38f70946ba) by Jiwon Shin
 
