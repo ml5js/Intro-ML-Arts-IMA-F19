@@ -18,11 +18,12 @@ To find the dataset that is right for your project, it’s helpful to ask some c
 
 ## 2. Download the Data
 
-For this example, we are going to be working with the Titanic Passenger Survival dataset. We can download this from a variety of places - let’s go with [OpenML] (https://www.openml.org/d/40945)
+For this example, we are going to be working with the Titanic Passenger Survival dataset. We can download this from a variety of places - let’s go with [OpenML](https://www.openml.org/d/40945)
 
-This link takes us to the data dictionary for the Titanic Passenger Survival dataset. You can see that OpenML has great documentation on all of the variables for this dataset, including how many missing values there are and showing the range of values. However, it doesn’t give a description of what each variable name means. Luckily we can find that on [Kaggle] (https://www.kaggle.com/c/titanic/data).
+This link takes us to the data dictionary for the Titanic Passenger Survival dataset. You can see that OpenML has great documentation on all of the variables for this dataset, including how many missing values there are and showing the range of values. However, it doesn’t give a description of what each variable name means. Luckily we can find that on [Kaggle](https://www.kaggle.com/c/titanic/data).
 
-To download this dataset, on the OpenML site click the download CSV cloud icon and save it with a name that is clear - something like titanic_raw. ![download_data](images/download_data.png)
+To download this dataset, on the OpenML site click the download CSV cloud icon and save it with a name that is clear - something like titanic_raw:
+![download data icon](images/download_data.png)
 
 ## 3. Get to Know Your Data
 
@@ -43,9 +44,10 @@ Here are 10 questions you can ask to get to know your data:
 10. Is it helpful to visualize any variables with a scatter plot? This is a graph that uses dots to plot two variables, one on the x axis and the other on the y axis.
 
 # Google Sheets
-Create a new Google sheet and open your Titanic dataset:![open_dataset](images/open_dataset.png)
+Create a new Google sheet and open your Titanic dataset:
+![open data tab](images/open_dataset.png)
 
-Here it is!![raw_data_view](images/raw_data_view.png)
+Here it is!![raw data view](images/raw_data_view.png)
 
 Let’s answer the above questions for the Titanic Passenger Survival dataset:
 1. Dimensions?
@@ -69,4 +71,4 @@ Let’s answer the above questions for the Titanic Passenger Survival dataset:
 9. and 10. Visualize?
 * We are going to skip this for now, but feel free to do on your own!
 
-## 4. Clean Your Data 
+## 4. Clean Your Data
