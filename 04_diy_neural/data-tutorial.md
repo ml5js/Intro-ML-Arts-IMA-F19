@@ -43,11 +43,12 @@ Here are 10 questions you can ask to get to know your data:
 9. Is it helpful to visualize any variables with a histogram? This is a type of bar chart showing the range of value for a given variable.
 10. Is it helpful to visualize any variables with a scatter plot? This is a graph that uses dots to plot two variables, one on the x axis and the other on the y axis.
 
-# Google Sheets
+### Google Sheets
 Create a new Google sheet and open your Titanic dataset:
 ![open data tab](images/open_dataset.png)
 
-Here it is!![raw data view](images/raw_data_view.png)
+Here it is!
+![raw data view](images/raw_data_view.png)
 
 Let’s answer the above questions for the Titanic Passenger Survival dataset:
 1. Dimensions?
@@ -72,3 +73,81 @@ Let’s answer the above questions for the Titanic Passenger Survival dataset:
 * We are going to skip this for now, but feel free to do on your own!
 
 ## 4. Clean Your Data
+
+Why is data cleaning important? In data science/machine learning/computer science there is a saying: “garbage in, garbage out.” What that means is that if you put bad (i.e. messy, incomplete or inaccurate) data into your model, you are going to get bad results. Therefore, data cleaning is worth your time...and it does take a lot of time! Data Scientists [estimate](https://www.forbes.com/sites/gilpress/2016/03/23/data-preparation-most-time-consuming-least-enjoyable-data-science-task-survey-says/#fe8085b6f637) that they spend 80% of their time collecting and cleaning data. WOW, you could do this for your full time job!
+
+Let’s make a copy of the dataset and rename it to be something like “titanic_clean” or “titanic_cleaned.”
+![new dataset name](images/new_dataset_name.png)
+
+### Formatting
+
+Let’s first clean up the fare column to make the numbers rounded without decimal places:
+![round number menu navigation](images/number_round_menu_navigation.png)
+![round number menu custom option](images/number_round_menu_custom.png)
+
+This looks better:
+![fare rounded output](images/fare_rounded.png)
+
+### Categorical variables
+
+Let’s clean up the pclass variable so that the ml5 neural network can interpret it. For categorical variables, the ml5 DIY neural network needs strings instead of numbers. We are going to turn the numbers 1, 2, 3 into first, second and third.
+
+Start by making a new column next to the class column:
+![new column for class](images/new_class_column.png)
+
+We’ll use the below formula to convert the numbers to strings. Be aware, you may need to change the cell numbers:
+
+```
+=IF(A2=1,"first", IF(A2=2,"second", IF(A2=3,"third")))
+```
+
+Pull down the bottom right corner of the first cell to apply it to the formula to the few rows. Looks good!
+
+![formula pull down](images/class_first_fill.png)
+
+Now click the little blue box in the bottom corner of the highlighted cells to copy the formula to the rest of the cells in the column.
+
+![automatically fill column](images/class_full_fill.png)
+
+If needed, this same method can be applied in reverse for converting strings to numbers!
+
+### Missing Values
+
+For each missing value, we’ll choose a random number between the following range range:
+* Low end of range: average - standard deviation
+* High end of range: average + standard deviation
+
+By doing this, we will have a bit more variation in age than simply filling all missing values with the average, but will still keep the mean the same. To do this, we will use the following formula (again, you may need to change the cell numbers):
+
+```
+=IF(E2="?", RANDBETWEEN((AVERAGE(E:E)-STDEV(E:E)),(AVERAGE(E:E)+STDEV(E:E))), IF(E2=E2, E2))
+```
+Use the same process you used in the previous step to autofill the whole column. Because the number are random, you will not get the exact number below, but you should manually check a few of the results to make sure that the values were filled in correctly.
+
+![generated ages](images/generate_age.png)
+
+Finally, there is one missing value in the fare column. Let’s delete that row to keep it simple.
+![row with missing fare](images/missing_fare.png)
+
+Now our dataset is looking pretty good!
+
+## 5. Check and Export
+
+In order to get rid of the uncleaned class and age columns, we need to make a new sheet with a copy of our spreadsheet without conditional formatting. Make a new sheet and name it “titanic_clean”.  
+![new sheet tab](images/new_sheet.png)
+
+With the first cell selected in your titanic_raw sheet, select your whole spreadsheet by pressing command-A. Right click and select copy.
+![select all](images/select_all.png)
+
+Navigate to your second sheet tab and right click in the first cell, then under the Edit menu, select paste special > paste values only
+![paste special](images/paste_special.png)
+
+If the numbers went back to their decimal values, use the formatting tool to round them again. Your result should look something like this:
+![final format for export](images/final_format.png)
+
+Now we are ready to export! From the File menu select Download and choose CSV:
+![export menu](images/export_csv.png)
+
+Rename the file with something that you’ll remember like titanic_clean and save the file in your project directory.
+
+Now you’re ready to train your model!
