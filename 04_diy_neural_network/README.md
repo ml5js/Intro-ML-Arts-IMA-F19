@@ -33,6 +33,9 @@
 * Video: [Analyzing & Preventing Unconscious Bias in Machine Learning](https://www.infoq.com/presentations/unconscious-bias-machine-learning) by Rachel Thomas
 * Video: [Data visualization for machine learning](https://vimeo.com/304131671)
 
+### Assignment 4A due Wednesday, Sept 24, 9am
+* TBA (find and link to a dataset)
+
 ## Session B: Training the Model
 
 ### Objectives:
@@ -45,4 +48,5 @@
     * Loss
 * Understand the difference between training and inference
 
-### Assignment 4 Due Sunday September 29 at 12pm:
+### Assignment 4 Due Sunday September 29 at 12pm
+* TBA
