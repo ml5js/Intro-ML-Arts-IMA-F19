@@ -13,7 +13,7 @@
 * Session 1 (M 9/16): Pre-trained models
 * Session 2 (W 9/18): Physical Interaction
 
-### 4: Training a Model
+### 4: [Training a Model](04_diy_neural)
 * Session 1 (M 9/23): Data Collection
 * Session 2 (W 9/25): Model Training
 
@@ -76,7 +76,7 @@ At the completion of this course, the student will:
 You will need a modern laptop (4 years old or younger is a good rule of thumb).  Most required software is freely available. The department has all required commercial software installed on laptops available for checkout.
 
 ## COURSE TEXTS
-There is no textbook for the class. Readings and videos will be assigned on the individual session notes pages.  
+There is no textbook for the class. Readings and videos will be assigned on the individual session notes pages.
 
 ## GRADING AND ATTENDANCE
 Grades for the course will follow the standard A through F letter grading system and will be determined by the following breakdown:
