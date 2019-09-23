@@ -18,7 +18,7 @@
 * Session 2 (W 9/25): Model Training
 
 ### 5: Real-Time Data / Interaction
-* Session 1 (M 10/8): Real-Time Data Collection
+* Session 1 (M 9/30): Real-Time Data Collection
 * Session 2 (W 10/2): Real-Time Model Training
 
 ### 6: Convolutional Neural Networks
