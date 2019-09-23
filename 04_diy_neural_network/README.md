@@ -32,6 +32,7 @@
 * [How to Make A.I. That’s Good for People](https://www.nytimes.com/2018/03/07/opinion/artificial-intelligence-human.html) by Fei-Fei Li
 * [Estimating the success of re-identifications in incomplete datasets using generative models](https://www.nature.com/articles/s41467-019-10933-3) from nature.com
 * Video: [Analyzing & Preventing Unconscious Bias in Machine Learning](https://www.infoq.com/presentations/unconscious-bias-machine-learning) by Rachel Thomas
+* Video: [Data visualization for machine learning](https://vimeo.com/304131671)
 
 ## Session B: Training the Model
 
