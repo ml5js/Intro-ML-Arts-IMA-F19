@@ -20,7 +20,7 @@
 * [How to Make A.I. That’s Good for People](https://www.nytimes.com/2018/03/07/opinion/artificial-intelligence-human.html) by Fei-Fei Li
 * [Estimating the success of re-identifications in incomplete datasets using generative models](https://www.nature.com/articles/s41467-019-10933-3) from nature.com
 * Video: [Analyzing & Preventing Unconscious Bias in Machine Learning](https://www.infoq.com/presentations/unconscious-bias-machine-learning) by Rachel Thomas
-
+* [Excavating AI: The Politics of Images in Machine Learning Training Sets](https://www.excavating.ai) by Kate Crawford and Trevor Paglen
 
 ## Session B: Training the Model
 
