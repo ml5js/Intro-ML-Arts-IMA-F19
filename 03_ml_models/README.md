@@ -23,7 +23,6 @@
 * [UNet Image Segmentation](https://editor.p5js.org/ima_ml/sketches/ii30sqpgL)
 * [BodyPix Image Segmentation](https://editor.p5js.org/ima_ml/sketches/-R3ybO0uz)
 
-
 ### Related Projects
 * [Sidewalk Orchestra](https://twitter.com/c_valenzuelab/status/979131716907536384) by Cristóbal Valenzuela
 * [Pose Music](https://codepen.io/teropa/full/QxLrMp/) by Tero Parviainen
@@ -85,12 +84,14 @@ For the above examples, if nothing happens on the Arduino when you start the p5.
 * [PomPom Mirror](https://vimeo.com/128375543) by Danny Rozin
 * [Now You Are In the Conversation](https://chelseachenchen.com/portfolio/now-you-are-in-the-conversation/) by Chelsea Chen Chen
 * [The Hand (Rock Paper Scissors)](https://tongwumedia.com/blog/the-hand) by Tong Wu and Nick Wallace
+*. [Humans of AI](https://humans-of.ai/) by Philipp Schmitt
 
 
 ### Assignment 3 Due Sunday September 22 at 12pm:
 1. Read [Real-Time Human Pose Estimation in the Browser with TensorFlow.js](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5) by Dan Oved, with editing and illustrations by Irene Alvarado and Alexis Gallo.
 2. Read [Mixing movement and machine](https://medium.com/artists-and-machine-intelligence/mixing-movement-and-machine-848095ea5596) by Maya Man
 4. Read [Review of Deep Learning Algorithms for Image Semantic Segmentation](https://medium.com/@arthur_ouaknine/review-of-deep-learning-algorithms-for-image-semantic-segmentation-509a600f7b57) by Arthur Ouaknine
+3. Read [Humans of AI](https://humans-of.ai/editorial) by Philipp Schmitt
 3. Explore [COCO Dataset](http://cocodataset.org/#explore). What surprises you about this data set? How is it similar or different to ImageNet? What questions do you have? Can you think of any ethical considerations around how this data was collected? Are there privacy considerations with the data?
 4. Work in groups of 2 (see [assignment 3 wiki](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Assignment-3)) to prototype a physical interaction as the output of a machine learning model using any of the tools or techniques demonstrated in weeks 2 and 3. This can be a new idea or build off of your week 2 assignment. Here are some questions to explore:
     * How might you use confidence score data as a type of creative input?
