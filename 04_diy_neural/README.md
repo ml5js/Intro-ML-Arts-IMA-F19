@@ -45,7 +45,7 @@
     * Is there missing, incorrect, or otherwise problematic data?
     * How and why was this data collected?
     * For whom is this data accurate or useful? What is this data *unrepresentative* of? (Who is missing and left out of the data?)
-    * Is this data appropriate for Machine Learning
+    * Knowing what you know now about machine learning, what will a model trained on this data help you do? Are there are alternative (non-machine learning) methods you could use instead? 
 3. Link to the dataset and your post on [Assignment 4a Wiki](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Assignment-4a).
 
 ## Session B: Training the Model
