@@ -36,7 +36,7 @@
 ### Assignment 4A due Wednesday, Sept 24, 9am
 1. Find a dataset that interests you. Some ideas:
     * Something you find online. For example, take a look at [Kaggle](https://www.kaggle.com/) and you can find a list of datasets we've compiled on the [dataset wiki](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Datasets).
-    * Find aa dataset that you collect yourself or is already being collected about you. For example, personal data like steps taken per day, browser history, minutes spent on your mobile device, sensor readings, and more.
+    * Find a dataset that you collect yourself or is already being collected about you. For example, personal data like steps taken per day, browser history, minutes spent on your mobile device, sensor readings, and more.
     * A dataset that you collect by crowdsourcing data. One way to approach this is to create a google form with questions and ask friends and fellow students to complete the form.
 2. After you have found or collected your dataset, write a blog post that addresses these questions:
     * What is (are!) the data?
@@ -45,7 +45,7 @@
     * Is there missing, incorrect, or otherwise problematic data?
     * How and why was this data collected?
     * For whom is this data accurate or useful? What is this data *unrepresentative* of? (Who is missing and left out of the data?)
-    * Is this data appropriate for Machine Learning
+    * Knowing what you know now about machine learning, what will a model trained on this data help you do? Are there are alternative (non-machine learning) methods you could use instead? 
 3. Link to the dataset and your post on [Assignment 4a Wiki](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Assignment-4a).
 
 ## Session B: Training the Model
