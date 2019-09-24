@@ -41,11 +41,11 @@
 2. After you have found or collected your dataset, write a blog post that addresses these questions:
     * What is (are!) the data?
     * What format is the data in? (CSV, JSON, PDF, or . . )
-    * What are the dimensions of the data (rows and columns) and what are the data types (numbers, strings, images, etc.)?
-    * Is there missing, incorrect, or otherwise problematic data?
+    * What are the dimensions of the data (rows and columns)?
+    * What are the "variables" (also known as "data items"). In a CSV these would be the column headings. Do you recognize the data types (numbers, strings, images, etc.)?    * Is there missing, incorrect, or otherwise problematic data?
     * How and why was this data collected?
     * For whom is this data accurate or useful? What is this data *unrepresentative* of? (Who is missing and left out of the data?)
-    * Knowing what you know now about machine learning, what will a model trained on this data help you do? Are there are alternative (non-machine learning) methods you could use instead? 
+    * Knowing what you know now about machine learning, what will a model trained on this data help you do? Are there are alternative (non-machine learning) methods you could use instead?
 3. Link to the dataset and your post on [Assignment 4a Wiki](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Assignment-4a).
 
 ## Session B: Training the Model
