@@ -40,7 +40,7 @@
     * A dataset that you collect by crowdsourcing data. One way to approach this is to create a google form with questions and ask friends and fellow students to complete the form.
 2. After you have found or collected your dataset, write a blog post that addresses these questions:
     * What is (are!) the data?
-    * What format is the data? (CSV, JSON, PDF, or . . )
+    * What format is the data in? (CSV, JSON, PDF, or . . )
     * What are the dimensions of the data (rows and columns) and what are the data types (numbers, strings, images, etc.)?
     * Is there missing, incorrect, or otherwise problematic data?
     * How and why was this data collected?
