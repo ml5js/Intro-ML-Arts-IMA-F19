@@ -49,9 +49,13 @@
 
 ### Objectives:
 * Learn steps to construct a vanilla neural network and train a classification model with ml5.js.
-* Understand the terminology of the training process:
-    * Training, testing, and validation.
-    * “hyper parameters” (We are using “best guess” defaults!)
+* Understand Neural Network architecture
+    * What is a Perceptron?
+    * What is a multi-layered perceptron?
+    * Activation Functions
+* Understand the terminology of the training process
+    * Training
+    * Learning Rate
     * Epochs
     * Batch size
     * Loss
@@ -59,9 +63,27 @@
 
 ### Perceptron
 * Nature of Code Chapter 10 - Neural Networks
+   * Invented in 1957 by Frank Rosenblatt at the Cornell Aeronautical Laboratory ([original paper](http://www.ling.upenn.edu/courses/cogs501/Rosenblatt1958.pdf)), a perceptron is the simplest neural network possible: a computational model of a single neuron. A perceptron consists of one or more inputs, a processor, and a single output.
    * [Nature of Code Perceptron slides](https://drive.google.com/open?id=1jB5dSPH5kvrCRsgFOhmOWPG31FYgfgbO)
    * [NOC Neural Network videos](https://youtu.be/XJ7HLz9VYz0?list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh) - 10.1 to 10.3 cover the "Perceptron", a model of a single neuron. The Perceptron forms the basis of modern multi-layer deep learning networks.
    * [NOC Neural Network chapter 10](https://natureofcode.com/book/chapter-10-neural-networks/) - written explanation of Perceptron and accompanying code in 10.1 to 10.4.
+
+### Color Classifier
+* [Full Coding Train Video Series using TensorFlow.js](https://youtu.be/y59-frfKR58?list=PLRqwX-V7Uu6bmMRCIoTi72aNWHo7epX4L), 7.1-7.5 cover how the data was collected and cleaned
+* [Crowdsourcing Colors website](https://codingtrain.github.io/CrowdSourceColorData/index.html), [Crowdsourcing Colors source code](https://github.com/CodingTrain/CrowdSourceColorData)
+
+### ml5.js examples
+* [ml5 temporary build template](https://editor.p5js.org/ima_ml/sketches/zBYypLahN)
+* [Color Classifer](https://editor.p5js.org/ima_ml/sketches/8gCBIyGKy)
+* [Titanic Survival Dataset](https://editor.p5js.org/ima_ml/sketches/jB9-wvqE3)
+
+### Artificial Neural Networks genesis
+Adapted from [A 'Brief' History of Neural Nets and Deep Learning](http://www.andreykurenkov.com/writing/a-brief-history-of-neural-nets-and-deep-learning/)
+* In 1943, Warren S. McCulloch, a neuroscientist, and Walter Pitts, a logician, developed the first conceptual model of an artificial neural network. In their paper, "[A logical calculus of the ideas immanent in nervous activity](https://pdfs.semanticscholar.org/5272/8a99829792c3272043842455f3a110e841b1.pdf),” they describe the concept of a neuron, a single cell living in a network of cells that receives inputs, processes those inputs, and generates an output.
+* Hebb's Rule from [The Organization of Behavior: A Neuropsychological Theory](https://alexa.design/2nyUyJi): "When an axon of cell A is near enough to excite a cell B and repeatedly or persistently takes part in firing it, some growth process or metabolic change takes place in one or both cells such that A's efficiency, as one of the cells firing B, is increased."
+* Invented in 1957 by Frank Rosenblatt at the Cornell Aeronautical Laboratory ([original paper](http://www.ling.upenn.edu/courses/cogs501/Rosenblatt1958.pdf)), a perceptron is the simplest neural network possible: a computational model of a single neuron. A perceptron consists of one or more inputs, a processor, and a single output.
+* In 1969, in their book [Perceptrons](https://mitpress.mit.edu/books/perceptrons) Marvin Minksy and Seymour Papert demonstrate the limitations of perceptrons to solve only "linearly separable" problems.  AI Winter #1!
+* Paul Werbos's 1974 thesis [Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences](https://books.google.com/books/about/Beyond_Regression.html?id=z81XmgEACAAJ) proposes "backpropagation" as a solution to adjusting weights in the hidden layers of a neural network. The technique was popularized in the 1986 paper [Learning representations by back-propagating errors](http://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf) by David Rumelhart, Geoffrey Hinton, and Ronald Williams
 
 ### Assignment 4 Due Sunday September 29 at 12pm
 * TBA
