@@ -164,3 +164,5 @@ Now we are ready to export! From the File menu select Download and choose CSV:
 Rename the file with a title you’ll remember (something like titanic_clean) and save the file in your project directory.
 
 Now you’re ready to train your model!
+
+https://docs.google.com/spreadsheets/d/1UKmuTgY8qWnZ-jQm9NBL0HGwlJS4e4VQTgNXTtluTCw/edit#gid=1774164161
