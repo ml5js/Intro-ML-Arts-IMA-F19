@@ -20,9 +20,6 @@
    * [What is JSON Part 1](https://youtu.be/_NFkzw6oFtQ) - Coding Train p5.js tutorial
    * [What is JSON Part 2](https://youtu.be/118sDpLOClw) - Coding Train p5.js tutorial
    * [JSON Data](https://youtu.be/uxf0--uiX0I) from Coding Train "Data + APIs" tutorial (same as above, lots of extra unrelated stuff here).
-* Nature of Code Chapter 10 - Neural Networks
-   * [NOC videos](https://youtu.be/XJ7HLz9VYz0?list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh) - 10.1 to 10.3 cover the "Perceptron", a model of a single neuron. The Perceptron forms the basis of modern multi-layer deep learning networks.
-   * [NOC chapter 10](https://natureofcode.com/book/chapter-10-neural-networks/) - written explanation of Perceptron and accompanying code in 10.1 to 10.4.
 
 ### Related Projects
 * [Feminist Data Set](https://carolinesinders.com/feminist-data-set/) by Caroline Sinders
@@ -59,6 +56,12 @@
     * Batch size
     * Loss
 * Understand the difference between training and inference
+
+### Perceptron
+* Nature of Code Chapter 10 - Neural Networks
+   * [Nature of Code Perceptron slides](https://drive.google.com/open?id=1jB5dSPH5kvrCRsgFOhmOWPG31FYgfgbO)
+   * [NOC Neural Network videos](https://youtu.be/XJ7HLz9VYz0?list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh) - 10.1 to 10.3 cover the "Perceptron", a model of a single neuron. The Perceptron forms the basis of modern multi-layer deep learning networks.
+   * [NOC Neural Network chapter 10](https://natureofcode.com/book/chapter-10-neural-networks/) - written explanation of Perceptron and accompanying code in 10.1 to 10.4.
 
 ### Assignment 4 Due Sunday September 29 at 12pm
 * TBA
