@@ -61,9 +61,9 @@
     * Loss
 * Understand the difference between training and inference
 
-### Perceptron
+### Perceptron and Artifical Neural Networks
+* Invented in 1957 by Frank Rosenblatt at the Cornell Aeronautical Laboratory ([original paper](http://www.ling.upenn.edu/courses/cogs501/Rosenblatt1958.pdf)), a perceptron is the simplest neural network possible: a computational model of a single neuron. A perceptron consists of one or more inputs, a processor, and a single output.
 * Nature of Code Chapter 10 - Neural Networks
-   * Invented in 1957 by Frank Rosenblatt at the Cornell Aeronautical Laboratory ([original paper](http://www.ling.upenn.edu/courses/cogs501/Rosenblatt1958.pdf)), a perceptron is the simplest neural network possible: a computational model of a single neuron. A perceptron consists of one or more inputs, a processor, and a single output.
    * [Nature of Code Perceptron slides](https://drive.google.com/open?id=1jB5dSPH5kvrCRsgFOhmOWPG31FYgfgbO)
    * [NOC Neural Network videos](https://youtu.be/XJ7HLz9VYz0?list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh) - 10.1 to 10.3 cover the "Perceptron", a model of a single neuron. The Perceptron forms the basis of modern multi-layer deep learning networks.
    * [NOC Neural Network chapter 10](https://natureofcode.com/book/chapter-10-neural-networks/) - written explanation of Perceptron and accompanying code in 10.1 to 10.4.
@@ -77,23 +77,14 @@
 * [Color Classifer](https://editor.p5js.org/ima_ml/sketches/WOLz4pub3)
 * [Titanic Survival Dataset](https://editor.p5js.org/ima_ml/sketches/_I1AbpA9h)
 
-### Artificial Neural Networks genesis
-Adapted from [A 'Brief' History of Neural Nets and Deep Learning](http://www.andreykurenkov.com/writing/a-brief-history-of-neural-nets-and-deep-learning/)
-* In 1943, Warren S. McCulloch, a neuroscientist, and Walter Pitts, a logician, developed the first conceptual model of an artificial neural network. In their paper, "[A logical calculus of the ideas immanent in nervous activity](https://pdfs.semanticscholar.org/5272/8a99829792c3272043842455f3a110e841b1.pdf),” they describe the concept of a neuron, a single cell living in a network of cells that receives inputs, processes those inputs, and generates an output.
-* Hebb's Rule from [The Organization of Behavior: A Neuropsychological Theory](https://alexa.design/2nyUyJi): "When an axon of cell A is near enough to excite a cell B and repeatedly or persistently takes part in firing it, some growth process or metabolic change takes place in one or both cells such that A's efficiency, as one of the cells firing B, is increased."
-* Invented in 1957 by Frank Rosenblatt at the Cornell Aeronautical Laboratory ([original paper](http://www.ling.upenn.edu/courses/cogs501/Rosenblatt1958.pdf)), a perceptron is the simplest neural network possible: a computational model of a single neuron. A perceptron consists of one or more inputs, a processor, and a single output.
-* In 1969, in their book [Perceptrons](https://mitpress.mit.edu/books/perceptrons) Marvin Minksy and Seymour Papert demonstrate the limitations of perceptrons to solve only "linearly separable" problems.  AI Winter #1!
-* Paul Werbos's 1974 thesis [Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences](https://books.google.com/books/about/Beyond_Regression.html?id=z81XmgEACAAJ) proposes "backpropagation" as a solution to adjusting weights in the hidden layers of a neural network. The technique was popularized in the 1986 paper [Learning representations by back-propagating errors](http://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf) by David Rumelhart, Geoffrey Hinton, and Ronald Williams
+### Assignment 4b Due Sunday September 29 at 6pm
 
-### Assignment 4 Due Sunday September 29 at 12pm
+1. Read 10.1 - 10.4 of [The Nature of Code chapter 10](https://natureofcode.com/book/chapter-10-neural-networks/)
 
-Train a model using `ml5.NeuralNetwork()` from a CSV or JSON dataset.
-
-Following are suggested exercises for expanding the [Color Classifer](https://editor.p5js.org/ima_ml/sketches/WOLz4pub3) or [Titanic Survival Dataset](https://editor.p5js.org/ima_ml/sketches/_I1AbpA9h) examples. Feel free to pick one of the ideas below or invent your own.
-
-1. Follow the [Data Wrangling](https://github.com/ml5js/Intro-ML-Arts-IMA/blob/source/04_diy_neural/data-tutorial.md) tutorial for the Titanic dataset and clean the data yourself. Try different ways for changing numbers to string labels and filling in missing data. Upload your own CSV, does the example still work? What changes?
-2. Go back to the original [titanic dataset](https://docs.google.com/spreadsheets/d/1UKmuTgY8qWnZ-jQm9NBL0HGwlJS4e4VQTgNXTtluTCw/edit#gid=1774164161) and add another column from the raw data to the cleaned version. Upload a new CSV and retrain the model - what changes?
-3. Try adjusting the "hyperparameters" of either example. Document what changes during the training and prediction stages. Below are some options can try:
+2. Train a model using `ml5.NeuralNetwork()` from a CSV or JSON dataset. Following are suggested exercises for expanding the [Color Classifer](https://editor.p5js.org/ima_ml/sketches/WOLz4pub3) or [Titanic Survival Dataset](https://editor.p5js.org/ima_ml/sketches/_I1AbpA9h) examples. Feel free to pick one of the ideas below or invent your own.
+    * Follow the [Data Wrangling](https://github.com/ml5js/Intro-ML-Arts-IMA/blob/source/04_diy_neural/data-tutorial.md) tutorial for the Titanic dataset and clean the data yourself. Try different ways for changing numbers to string labels and filling in missing data. Upload your own CSV, does the example still work? What changes?
+    * Go back to the original [titanic dataset](https://docs.google.com/spreadsheets/d/1UKmuTgY8qWnZ-jQm9NBL0HGwlJS4e4VQTgNXTtluTCw/edit#gid=1774164161) and add another column from the raw data to the cleaned version. Upload a new CSV and retrain the model - what changes?
+    * Try adjusting the "hyperparameters" of either example. Document what changes during the training and prediction stages. Below are some options can try.
 
 ```javascript
 let nnOptions = {
@@ -108,12 +99,9 @@ let trainingOptions = {
   batchSize: 64
 }
 ```
+    * If you are feeling ambitious, try training a model with your own dataset.
 
-For any terms that are unfamiliar, search for information online and write about what they mean in yours post.
+3. Whatever exercise you choose, document the process of working with the data and the ml5.js library in a blog post. It's absolutely ok if nothing works, write a post that explains what you tried, document the errors, and theorize as to what might have gone wrong -- is the bug in your code, the data, the ml5 library, the web editor? For any terms that are unfamiliar, search for information online and write about what you tihnk they mean in your post.
 
-4. If you are feeling ambitious, try training a model with your own dataset.
-
-Whatever exercise you choose, document the process of working with the data and the ml5.js library in a blog post. It's absolutely ok if nothing works, write a post that explains what you tried, document the errors, and theorize as to what might have gone wrong -- is the bug in your code, the data, the ml5 library, the web editor?
-
-Also include in your blog post a discussion of using the ml5 library itself. One of the big challenges of designing a higher level library for machine learning is finding the right balance between hiding the lower level details and exposing the user to concepts and allowing for flexibility / customization. Thinking about the difference between programming all the elements of the model (e.g. [Nature of Code Perceptron example](https://natureofcode.com/book/chapter-10-neural-networks/#102-the-perceptron) and working with the `ml5.neuralNetwork()` function, how did this balance sit with you? Is the code easy for you to follow? Do you understand what the library is doing? Do you have any ideas for improvements or modifications to the ml5.js library?
+4. In addition to documenting your exercise, reflect on your experience using a new feature of an open source library. One of the big challenges of designing a higher level library for machine learning is finding the right balance between hiding the lower level details and allowing for flexibility / customization. Thinking about the difference between programming all the elements of the model (e.g. the Perceptron example) and working with the `ml5.neuralNetwork()` function, how did this balance sit with you? Is the code easy for you to follow? Do you understand what the library is doing? What are some roadblocks you anticipate for using the library with your own data? Do you have any ideas for improvements or modifications to the ml5.js library?
 
