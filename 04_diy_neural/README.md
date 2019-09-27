@@ -80,7 +80,7 @@
 
 ### Assignment 4b Due Sunday September 29 at 6pm
 
-1. Read 10.1 - 10.4 of [The Nature of Code chapter 10](https://natureofcode.com/book/chapter-10-neural-networks/)
+1. Read 10.1 - 10.4 of [The Nature of Code chapter 10](https://natureofcode.com/book/chapter-10-neural-networks/).
 
 2. Train a model using `ml5.NeuralNetwork()` from a CSV or JSON dataset. Following are suggested exercises for expanding the [Color Classifer](https://editor.p5js.org/ima_ml/sketches/WOLz4pub3) or [Titanic Survival Dataset](https://editor.p5js.org/ima_ml/sketches/_I1AbpA9h) examples. Feel free to pick one of the ideas below or invent your own.
     * Follow the [Data Wrangling](https://github.com/ml5js/Intro-ML-Arts-IMA/blob/source/04_diy_neural/data-tutorial.md) tutorial for the Titanic dataset and clean the data yourself. Try different ways for changing numbers to string labels and filling in missing data. Upload your own CSV, does the example still work? What changes?
