@@ -86,13 +86,14 @@ Adapted from [A 'Brief' History of Neural Nets and Deep Learning](http://www.and
 * Paul Werbos's 1974 thesis [Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences](https://books.google.com/books/about/Beyond_Regression.html?id=z81XmgEACAAJ) proposes "backpropagation" as a solution to adjusting weights in the hidden layers of a neural network. The technique was popularized in the 1986 paper [Learning representations by back-propagating errors](http://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf) by David Rumelhart, Geoffrey Hinton, and Ronald Williams
 
 ### Assignment 4 Due Sunday September 29 at 12pm
-Train a model using `ml5.NeuralNetwork()` from a CSV or JSON dataset in the browser.
 
-Here are some suggested exercises based on the [Color Classifer](https://editor.p5js.org/ima_ml/sketches/WOLz4pub3) and [Titanic Survival Dataset](https://editor.p5js.org/ima_ml/sketches/_I1AbpA9h) examples. Feel free to pick one of the ideas below or invent your own.
+Train a model using `ml5.NeuralNetwork()` from a CSV or JSON dataset.
 
-1. Follow the [Data Wrangling](https://github.com/ml5js/Intro-ML-Arts-IMA/blob/source/04_diy_neural/data-tutorial.md) tutorial for the Titanic dataset and clean the data yourself. Upload your own CSV, does the example still work?
+Following are suggested exercises for expanding the [Color Classifer](https://editor.p5js.org/ima_ml/sketches/WOLz4pub3) or [Titanic Survival Dataset](https://editor.p5js.org/ima_ml/sketches/_I1AbpA9h) examples. Feel free to pick one of the ideas below or invent your own.
+
+1. Follow the [Data Wrangling](https://github.com/ml5js/Intro-ML-Arts-IMA/blob/source/04_diy_neural/data-tutorial.md) tutorial for the Titanic dataset and clean the data yourself. Try different ways for changing numbers to string labels and filling in missing data. Upload your own CSV, does the example still work? What changes?
 2. Go back to the original [titanic dataset](https://docs.google.com/spreadsheets/d/1UKmuTgY8qWnZ-jQm9NBL0HGwlJS4e4VQTgNXTtluTCw/edit#gid=1774164161) and add another column from the raw data to the cleaned version. Upload a new CSV and retrain the model - what changes?
-3. Try adjusting the "hyperparameters" of each example. Document what changes during the training and prediction stages. Below are some options you might try experimenting with.
+3. Try adjusting the "hyperparameters" of either example. Document what changes during the training and prediction stages. Below are some options can try:
 
 ```javascript
 let nnOptions = {
@@ -108,7 +109,11 @@ let trainingOptions = {
 }
 ```
 
+For any terms that are unfamiliar, search for information online and write about what they mean in yours post.
+
 4. If you are feeling ambitious, try training a model with your own dataset.
 
-Whatever exercise you choose, document the process of working with the data and the ml5.js library in a blog post. It's absolultely ok if nothing works, write a post that explains everything you tried, documents the errors, and theorize as to what might have gone wrong -- is the bug in the data, the ml5 library, the web editor?
+Whatever exercise you choose, document the process of working with the data and the ml5.js library in a blog post. It's absolutely ok if nothing works, write a post that explains what you tried, document the errors, and theorize as to what might have gone wrong -- is the bug in your code, the data, the ml5 library, the web editor?
+
+Also include in your blog post a discussion of using the ml5 library itself. One of the big challenges of designing a higher level library for machine learning is finding the right balance between hiding the lower level details and exposing the user to concepts and allowing for flexibility / customization. Thinking about the difference between programming all the elements of the model (e.g. [Nature of Code Perceptron example](https://natureofcode.com/book/chapter-10-neural-networks/#102-the-perceptron) and working with the `ml5.neuralNetwork()` function, how did this balance sit with you? Is the code easy for you to follow? Do you understand what the library is doing? Do you have any ideas for improvements or modifications to the ml5.js library?
 
