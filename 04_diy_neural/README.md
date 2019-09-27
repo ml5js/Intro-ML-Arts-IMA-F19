@@ -86,6 +86,7 @@
     * Follow the [Data Wrangling](https://github.com/ml5js/Intro-ML-Arts-IMA/blob/source/04_diy_neural/data-tutorial.md) tutorial for the Titanic dataset and clean the data yourself. Try different ways for changing numbers to string labels and filling in missing data. Upload your own CSV, does the example still work? What changes?
     * Go back to the original [titanic dataset](https://docs.google.com/spreadsheets/d/1UKmuTgY8qWnZ-jQm9NBL0HGwlJS4e4VQTgNXTtluTCw/edit#gid=1774164161) and add another column from the raw data to the cleaned version. Upload a new CSV and retrain the model - what changes?
     * Try adjusting the "hyperparameters" of either example. Document what changes during the training and prediction stages. Below are some options can try.
+    * If you are feeling ambitious, you can also try to train a model with your own dataset.
 
 ```javascript
 let nnOptions = {
@@ -100,7 +101,6 @@ let trainingOptions = {
   batchSize: 64
 }
 ```
-    * If you are feeling ambitious, try training a model with your own dataset.
 
 3. Whatever exercise you choose, document the process of working with the data and the ml5.js library in a blog post. It's absolutely ok if nothing works, write a post that explains what you tried, document the errors, and theorize as to what might have gone wrong -- is the bug in your code, the data, the ml5 library, the web editor? For any terms that are unfamiliar, search for information online and write about what you tihnk they mean in your post.
 
