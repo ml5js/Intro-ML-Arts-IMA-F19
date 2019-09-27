@@ -67,6 +67,7 @@
    * [Nature of Code Perceptron slides](https://drive.google.com/open?id=1jB5dSPH5kvrCRsgFOhmOWPG31FYgfgbO)
    * [NOC Neural Network videos](https://youtu.be/XJ7HLz9VYz0?list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh) - 10.1 to 10.3 cover the "Perceptron", a model of a single neuron. The Perceptron forms the basis of modern multi-layer deep learning networks.
    * [NOC Neural Network chapter 10](https://natureofcode.com/book/chapter-10-neural-networks/) - written explanation of Perceptron and accompanying code in 10.1 to 10.4.
+* Revisit [3Blue1Brown's But what is a Neural Network video](https://youtu.be/aircAruvnKk).
 
 ### Color Classifier
 * [Full Coding Train Video Series using TensorFlow.js](https://youtu.be/y59-frfKR58?list=PLRqwX-V7Uu6bmMRCIoTi72aNWHo7epX4L), 7.1-7.5 cover how the data was collected and cleaned
@@ -103,5 +104,5 @@ let trainingOptions = {
 
 3. Whatever exercise you choose, document the process of working with the data and the ml5.js library in a blog post. It's absolutely ok if nothing works, write a post that explains what you tried, document the errors, and theorize as to what might have gone wrong -- is the bug in your code, the data, the ml5 library, the web editor? For any terms that are unfamiliar, search for information online and write about what you tihnk they mean in your post.
 
-4. In addition to documenting your exercise, reflect on your experience using a new feature of an open source library. One of the big challenges of designing a higher level library for machine learning is finding the right balance between hiding the lower level details and allowing for flexibility / customization. Thinking about the difference between programming all the elements of the model (e.g. the Perceptron example) and working with the `ml5.neuralNetwork()` function, how did this balance sit with you? Is the code easy for you to follow? Do you understand what the library is doing? What are some roadblocks you anticipate for using the library with your own data? Do you have any ideas for improvements or modifications to the ml5.js library?
+4. In addition to documenting your exercise, reflect on your experience using a new feature of an open source library. One of the big challenges of designing a higher level library for machine learning is finding the right balance between hiding the lower level details and allowing for flexibility / customization. Thinking about the difference between programming all the elements of the model (e.g. the Perceptron example and [3blue1brown's Neural Network video](https://youtu.be/aircAruvnKk)) and working with the `ml5.neuralNetwork()` function, how did this balance sit with you? Is the code easy for you to follow? Do you understand what the library is doing? What are some roadblocks you anticipate for using the library with your own data? Do you have any ideas for improvements or modifications to the ml5.js library?
 
