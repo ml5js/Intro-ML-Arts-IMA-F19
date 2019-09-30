@@ -7,11 +7,14 @@
 * Compare training and inference for real-time interaction with more traditional machine learning pipelines.
 
 ### Pose Tracking
-
+* [PoseNet all points](https://editor.p5js.org/ima_ml/sketches/ZZtfEKugW)
 
 ### Face Tracking
+* Coming soon...
 
-### p5.js Sound
+### p5.js Oscillators
+* [p5.js Oscillator example](https://editor.p5js.org/ima_ml/sketches/fSGClc_aK)
+* [Sound Synthesis video tutorial](https://youtu.be/Bk8rLzzSink)
 
 ### Related projects that map gesture to sound
 * [MARtLET](https://vimeo.com/19980514) by Michelle Nagai
