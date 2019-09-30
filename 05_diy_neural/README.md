@@ -22,6 +22,9 @@
 * [This Is Not A Theremin](https://sofiaitp.wordpress.com/2018/12/04/this-is-not-a-theremin/) by Guillermo Montecinos and Sofía Suazo
 * [Eye Conductor](https://andreasrefsgaard.dk/project/eye-conductor/) by Andreas Refsgaard
 
+### Reading / Viewing
+* [Machine Learning for Humaan Creative Practice](https://vimeo.com/287094397), Dr. Rebecca Fiebrink at Eyeo 2018 |]
+
 ## Session B: Training the Model
 
 ### Objectives:
