@@ -48,14 +48,18 @@ In each example, a p5.js sketch captures some input data and sends it to an Ardu
     * [p5.js sketch with ml5 + p5.serialport](https://editor.p5js.org/ima_ml/sketches/QyfDUvIK2)
     * [Arduino sketch](examples/Example1_MobileNet_LED_On_Off.ino)
     * [Arduino diagram](images/Examples1_2_arduinoDiagram.png)
-2. Pose Detection using PoseNet to Fade LED
+2. Single Pose Detection using PoseNet to Fade LED
     * [p5.js sketch with ml5 + p5.serialport](https://editor.p5js.org/ima_ml/sketches/WAJHThO1G)
     * [Arduino sketch](examples/Example2_PoseNet_Fade_LED.ino)
     * [Arduino diagram](images/Examples1_2_arduinoDiagram.png)
 3. Multiple Pose Detection using PoseNet to Turn LEDs On/Off
     * [p5.js sketch with ml5 + p5.serialport](https://editor.p5js.org/ima_ml/sketches/wcvphkn3R)
-    * [Arduino sketch](examples/Example3_PoseNet_Multiple.ino)
+    * [Arduino sketch](examples/Example3_PoseNet_MultiPose.ino)
     * [Arduino diagram](images/Example3_arduinoDiagram.png)
+3. Single Pose Detection using Multiple PoseNet Keypoints to Fade LEDs
+    * [p5.js sketch with ml5 + p5.serialport](https://editor.p5js.org/ima_ml/sketches/iCasraVTI)
+    * [Arduino sketch](examples/Example4_PoseNet_SinglePose_Multiple_Keypoints.ino)
+    * [Arduino diagram](images/Example4_arduinoDiagram.png)
 
 ### Materials for Examples
 * [p5.js web editor](https://editor.p5js.org)
@@ -84,7 +88,7 @@ For the above examples, if nothing happens on the Arduino when you start the p5.
 * [PomPom Mirror](https://vimeo.com/128375543) by Danny Rozin
 * [Now You Are In the Conversation](https://chelseachenchen.com/portfolio/now-you-are-in-the-conversation/) by Chelsea Chen Chen
 * [The Hand (Rock Paper Scissors)](https://tongwumedia.com/blog/the-hand) by Tong Wu and Nick Wallace
-*. [Humans of AI](https://humans-of.ai/) by Philipp Schmitt
+* [Humans of AI](https://humans-of.ai/) by Philipp Schmitt
 
 
 ### Assignment 3 Due Sunday September 22 at 12pm:
