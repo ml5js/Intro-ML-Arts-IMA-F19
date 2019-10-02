@@ -31,10 +31,11 @@
 * Revisit and examine the concepts of classification and regression as applied to real-time interaction.
 
 ### Examples
-* browser-based musical instrument with the mouse, a neural network classifier, and p5.sound.js.
-* replace mouse with hand gesture using the PoseNet model.
-* face-api.js
+* [Train model with Mouse](https://editor.p5js.org/ima_ml/sketches/eW8o-mYJf)
+* [Train model with Pixels](https://editor.p5js.org/ima_ml/sketches/EMDiQlIhV)
+* [Train model with Face Keypoints](https://editor.p5js.org/ima_ml/sketches/US3ZX6zCD)
 
 ### Assignment 5 Due Sunday October 6 at 6pm
 * Design the inputs and outputs of a real-time machine learning system for interaction and audio/visual performance. Write a short blog post describing the inputs and outputs of your system.
-* Create your own sound or visuals generator by training a machine learning model on inputs generated from interaction (mouse, face movements, gesture).
+* Create your own sound or visuals generator by training a machine learning model on inputs generated from interaction (mouse, face movements, gesture). This can be a prototype of the idea of a simple exercises building on the examplese listed above.
+    * suggested exercises TBA
