@@ -33,7 +33,7 @@
 * [Train model with Face Keypoints](https://editor.p5js.org/ima_ml/sketches/US3ZX6zCD)
 
 ### Assignment 5 Due Sunday October 6 at 6pm
-1. Watch [Machine Learning for Human Creative Practice](https://vimeo.com/287094397), Dr. Rebecca Fiebrink at Eyeo 2018 |]. Write a response to the following question posed by Dr. Fiebrink's:
+1. Watch [Machine Learning for Human Creative Practice](https://vimeo.com/287094397), Dr. Rebecca Fiebrink at Eyeo 2018. Write a response to the following question posed by Dr. Fiebrink:
     * How can machine learning support people's existing creative practices? Expand people's creative capabilities?
 2. Dream up and design the inputs and outputs of a real-time machine learning system for interaction and audio/visual performance. This could be an idea well beyond the scope of what you can do in a weekly exercise.
 3. Create your own p5+ml5 sketch that trains a model with real-time interactive data. This can be a prototype of the idea of a simple exercises building on the examples listed above. Here are some exercise suggestions:
