@@ -17,7 +17,7 @@
 * Session 1 (M 9/23): Data Collection
 * Session 2 (W 9/25): Model Training
 
-### 5: Real-Time Data / Interaction
+### 5: [Real-Time Data / Interaction](05_diy_neural)
 * Session 1 (M 9/30): Real-Time Data Collection
 * Session 2 (W 10/2): Real-Time Model Training
 
