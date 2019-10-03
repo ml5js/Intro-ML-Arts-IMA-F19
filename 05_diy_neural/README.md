@@ -36,7 +36,7 @@
 1. Watch [Machine Learning for Human Creative Practice](https://vimeo.com/287094397), Dr. Rebecca Fiebrink at Eyeo 2018. Write a response to the following question posed by Dr. Fiebrink:
     * How can machine learning support people's existing creative practices? Expand people's creative capabilities?
 2. Dream up and design the inputs and outputs of a real-time machine learning system for interaction and audio/visual performance. This could be an idea well beyond the scope of what you can do in a weekly exercise.
-3. Create your own p5+ml5 sketch that trains a model with real-time interactive data. This can be a prototype of the idea of a simple exercises building on the examples listed above. Here are some exercise suggestions:
+3. Create your own p5+ml5 sketch that trains a model with real-time interactive data. This can be a prototype of the aforementioned idea or a simple exercise that builds on this week's code examples. Here are some exercise suggestions:
     * Try to invent more elegant and intuitive interaction for collecting real-time data beyond clicking buttons?
     * Train a model using several PoseNet keypoints or even the full PoseNet skeleton. You can build off of [the example we started in class](https://editor.p5js.org/ima_ml/sketches/ED-8eBe3F).
     * Can you design a system with multiple outputs? For example, what if you train a model to output a red, green, and blue value?
