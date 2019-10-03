@@ -41,4 +41,5 @@
     * Train a model using several PoseNet keypoints or even the full PoseNet skeleton. You can build off of [the example we started in class](https://editor.p5js.org/ima_ml/sketches/ED-8eBe3F).
     * Can you design a system with multiple outputs? For example, what if you train a model to output a red, green, and blue value?
     * What other real-time inputs might you consider beyond mouse position, image pixels, or face/pose tracking? Could you use real-time sensor data?
+    * What other real-time outputs might you consider beyond color or sound modulation? Could the output be a physical computing device?
 4. Complete a blog post with your response, real-time ML system, and documentation of your code exercise and [link from the homework wiki](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Assignment-5).
