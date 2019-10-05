@@ -9,7 +9,7 @@
 * Understand how to work with image data for training your own model.
 
 ### Examples
-* Loading drawings from Google Quick, Draw
+* [Loading drawings from Google Quick, Draw into p5.js](https://editor.p5js.org/ima_ml/sketches/aT9zxHX7n)
 * Training a model with `ml5.neuralNetwork()` and Google Quick, Draw
 * Training a convolutional neural network with Google Quick, Draw and native TensorFlow.js (no ml5)
 
