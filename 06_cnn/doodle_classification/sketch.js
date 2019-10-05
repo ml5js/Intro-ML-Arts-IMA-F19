@@ -28,7 +28,6 @@ function prepareData(data, label) {
   }
 }
 
-
 function setup() {
   createCanvas(280, 280);
   background(255);
@@ -52,46 +51,15 @@ function setup() {
     classifier.addData(allData[i].inputs, [allData[i].target]);
   }
   // classifier.normalizeData();
-  classifier.train({ epochs: 50 }, finishedTraining);
+  classifier.train({ epochs: 2 }, finishedTraining);
 
-  // let trainButton = select('#trainButton');
-
-  // let guessButton = select('#guess');
-  // guessButton.mousePressed(function () {
-  //   let inputs = [];
-  //   let img = get();
-  //   img.resize(28, 28);
-  //   img.loadPixels();
-  //   for (let i = 0; i < len; i++) {
-  //     let bright = img.pixels[i * 4];
-  //     inputs[i] = (255 - bright) / 255.0;
-  //   }
-
-  //   let guess = nn.predict(inputs);
-  //   // console.log(guess);
-  //   let m = max(guess);
-  //   let classification = guess.indexOf(m);
-  //   if (classification === CAT) {
-  //     console.log("cat");
-  //   } else if (classification === RAINBOW) {
-  //     console.log("rainbow");
-  //   } else if (classification === TRAIN) {
-  //     console.log("train");
-  //   }
-
-  //   //image(img, 0, 0);
-  // });
+  let guessButton = select('#guessButton');
+  guessButton.mousePressed(classify);
 
   let clearButton = select('#clearButton');
   clearButton.mousePressed(function () {
     background(255);
   });
-  // for (let i = 1; i < 6; i++) {
-  //   trainEpoch(training);
-  //   console.log("Epoch: " + i);
-  //   let percent = testAll(testing);
-  //   console.log("% Correct: " + percent);
-  // }
 }
 
 
@@ -101,6 +69,27 @@ function draw() {
   if (mouseIsPressed) {
     line(pmouseX, pmouseY, mouseX, mouseY);
   }
+}
+
+function classify() {
+  let inputs = [];
+  let img = get();
+  img.resize(28, 28);
+  img.loadPixels();
+  for (let i = 0; i < len; i++) {
+    let bright = img.pixels[i * 4];
+    inputs[i] = (255 - bright) / 255.0;
+  }
+  console.log(inputs);
+  classifier.classify(inputs, gotResults);
+}
+
+function gotResults(error, results) {
+  if (error) {
+    console.error(error);
+    return;
+  }
+  console.log(results);
 }
 
 function finishedTraining() {
