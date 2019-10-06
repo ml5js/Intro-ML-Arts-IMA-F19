@@ -11,7 +11,7 @@ let allData = [];
 function preload() {
   catsData = loadBytes('data/cats1000.bin');
   trainsData = loadBytes('data/trains1000.bin');
-  rainbowsData = loadBytes('data/rainbows1000.bin');
+  // rainbowsData = loadBytes('data/rainbows1000.bin');
 }
 
 function prepareData(data, label) {
@@ -34,13 +34,13 @@ function setup() {
 
   // Preparing the data
   prepareData(catsData, 'cat');
-  prepareData(rainbowsData, 'rainbow');
+  // prepareData(rainbowsData, 'rainbow');
   prepareData(trainsData, 'train');
 
   // Making the neural network
   let options = {
     inputs: 784,
-    outputs: 3,
+    outputs: 2,
     task: 'classification',
     debug: true
   }
