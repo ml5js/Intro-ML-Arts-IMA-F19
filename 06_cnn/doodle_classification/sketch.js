@@ -8,10 +8,12 @@ let classifier;
 
 let allData = [];
 
+let resultsP;
+
 function preload() {
   catsData = loadBytes('data/cats1000.bin');
   trainsData = loadBytes('data/trains1000.bin');
-  // rainbowsData = loadBytes('data/rainbows1000.bin');
+  rainbowsData = loadBytes('data/rainbows1000.bin');
 }
 
 function prepareData(data, label) {
@@ -29,39 +31,36 @@ function prepareData(data, label) {
 }
 
 function setup() {
-  createCanvas(280, 280);
+  createCanvas(140, 140);
   background(255);
 
   // Preparing the data
   prepareData(catsData, 'cat');
-  // prepareData(rainbowsData, 'rainbow');
+  prepareData(rainbowsData, 'rainbow');
   prepareData(trainsData, 'train');
 
   // Making the neural network
   let options = {
     inputs: 784,
-    outputs: 2,
+    outputs: 3,
     task: 'classification',
     debug: true
   }
   classifier = new ml5.neuralNetwork(options);
-
   for (let i = 0; i < allData.length; i++) {
-    console.log(allData[i].target);
     classifier.addData(allData[i].inputs, [allData[i].target]);
   }
   // classifier.normalizeData();
-  classifier.train({ epochs: 2 }, finishedTraining);
+  classifier.train({ epochs: 50 }, finishedTraining);
 
-  let guessButton = select('#guessButton');
+  resultsP = createP('');
+
+  let guessButton = createButton('classify');
   guessButton.mousePressed(classify);
 
-  let clearButton = select('#clearButton');
-  clearButton.mousePressed(function () {
-    background(255);
-  });
+  let clearButton = createButton('clear');
+  clearButton.mousePressed(clearCanvas);
 }
-
 
 function draw() {
   strokeWeight(8);
@@ -80,7 +79,6 @@ function classify() {
     let bright = img.pixels[i * 4];
     inputs[i] = (255 - bright) / 255.0;
   }
-  console.log(inputs);
   classifier.classify(inputs, gotResults);
 }
 
@@ -89,9 +87,13 @@ function gotResults(error, results) {
     console.error(error);
     return;
   }
-  console.log(results);
+  resultsP.html(`${results[0].label} (${floor(100 * results[0].confidence)}%)`);
 }
 
 function finishedTraining() {
   console.log('done');
+}
+
+function clearCanvas() {
+  background(255);
 }
