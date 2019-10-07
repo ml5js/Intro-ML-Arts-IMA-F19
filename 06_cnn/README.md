@@ -10,13 +10,21 @@
 * Learn about the Google “Quick, Draw!” dataset.
 * Understand how to work with image data for training your own model.
 
+### Quick, Draw! Data
+* [Data and Documentation](https://github.com/googlecreativelab/quickdraw-dataset)
+* [Video tutorial: Replaying Drawings with node server](https://thecodingtrain.com/CodingChallenges/122.1-quick-draw)
+* [Video tutorial: Replaying Drawings with Google Web API](https://thecodingtrain.com/CodingChallenges/122.2-quick-draw)
+* [Preparing Data as Images for Doodle Classifer Part 1](https://youtu.be/gX7U6WA7Ffk)
+* [Preparing Data as Images for Doodle Classifer Part 2](https://youtu.be/wMe6qcpD8jI)
+
 ### Examples
-* [Displaying MNIST in p5]()
+* [Displaying MNIST in p5](TBD)
 * [Loading drawings from Google Quick, Draw into p5.js](https://editor.p5js.org/ima_ml/sketches/aT9zxHX7n)
-* Training a model with `ml5.neuralNetwork()` and Google Quick, Draw
+* [Training a model with `ml5.neuralNetwork()` and Google Quick, Draw](https://editor.p5js.org/ima_ml/sketches/bL6jONrFQ)
 * Training a convolutional neural network with Google Quick, Draw and native TensorFlow.js (no ml5)
 
-### References
+
+### Convolutional Neural Nets
 * [Original 1998 "LetNet5" paper: "Gradient-Based Learning Applied to Document Recognition"](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf) by Y. Lecun, L. Bottou, Y. Bengio, P. Haffner
 * [How computers got shockingly good at recognizing images](https://arstechnica.com/science/2018/12/how-computers-got-shockingly-good-at-recognizing-images/) by Timothy B. Lee
 * [Image Kernels Explained Visually](http://setosa.io/ev/image-kernels/) by Victor Powell
