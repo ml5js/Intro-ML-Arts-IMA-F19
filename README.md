@@ -21,7 +21,7 @@
 * Session 1 (M 9/30): Real-Time Data Collection
 * Session 2 (W 10/2): Real-Time Model Training
 
-### 6: Convolutional Neural Networks
+### 6: [Convolutional Neural Networks](06_cnn)
 * Session 1 (M 10/7): Image Data
 * Session 2 (W 10/9): Model Training
 
