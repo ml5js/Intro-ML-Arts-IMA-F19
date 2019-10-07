@@ -18,9 +18,11 @@
 * [Preparing Data as Images for Doodle Classifer Part 2](https://youtu.be/wMe6qcpD8jI)
 
 ### Examples
-* [Displaying MNIST in p5](TBD)
-* [Loading drawings from Google Quick, Draw into p5.js](https://editor.p5js.org/ima_ml/sketches/aT9zxHX7n)
-* [Training a model with `ml5.neuralNetwork()` and Google Quick, Draw](https://editor.p5js.org/ima_ml/sketches/bL6jONrFQ)
+* [Displaying MNIST](TBD)
+* [Displaying Quick, Draw! 28x28 images](https://editor.p5js.org/ima_ml/sketches/wOO4nvwyw)
+* [Animating Quick, Draw! paths](https://editor.p5js.org/ima_ml/sketches/aT9zxHX7n)
+* [Training a model with `ml5.neuralNetwork()` and Google Quick, Draw! images](https://editor.p5js.org/ima_ml/sketches/bL6jONrFQ)
+* [Convolution p5.js demo](https://editor.p5js.org/ima_ml/sketches/mSlffqOZX)
 * Training a convolutional neural network with Google Quick, Draw and native TensorFlow.js (no ml5)
 
 
