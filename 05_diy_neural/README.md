@@ -28,9 +28,11 @@
 * Revisit and examine the concepts of classification and regression as applied to real-time interaction.
 
 ### Examples
-* [Train model with Mouse](https://editor.p5js.org/ima_ml/sketches/eW8o-mYJf)
-* [Train model with Pixels](https://editor.p5js.org/ima_ml/sketches/EMDiQlIhV)
-* [Train model with Face Keypoints](https://editor.p5js.org/ima_ml/sketches/US3ZX6zCD)
+* [Train regression model with Mouse](https://editor.p5js.org/ima_ml/sketches/eW8o-mYJf)
+* [Train classification model with Mouse](https://editor.p5js.org/ima_ml/sketches/2tpjAh8e1)
+* [Train regression model model with Pixels](https://editor.p5js.org/ima_ml/sketches/EMDiQlIhV)
+* [Train regression model model with Face Keypoints](https://editor.p5js.org/ima_ml/sketches/US3ZX6zCD)
+* [Train classification model model with PoseNet](https://editor.p5js.org/ima_ml/sketches/Gdt8ClYbsD)
 
 ### Assignment 5 Due Sunday October 6 at 6pm
 1. Watch [Machine Learning for Human Creative Practice](https://vimeo.com/287094397), Dr. Rebecca Fiebrink at Eyeo 2018. Write a response to the following question posed by Dr. Fiebrink:
