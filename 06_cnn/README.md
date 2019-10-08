@@ -41,3 +41,11 @@
 ## Session B: Doodle Classification
 
 ### Assignment 6 Due Monday October 14 at 12pm
+
+#### Reading
+* [AI ‘Emotion Recognition’ can’t be Trusted](https://theverge.com/2019/7/25/8929793/emotion-recognition-analysis-ai-machine-learning-facial-expression-review) by James Vincent 
+* [Atlanta Asks Google Whether It Targeted Black Homeless People](https://www.nytimes.com/2019/10/04/technology/google-facial-recognition-atlanta-homeless.html) by Jack Nicas, NY Times
+* [An Intuitive Explanation of Convolutional Neural Networks](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/) by Ujjwal Karn
+
+### Coding Exericse
+* TBA
