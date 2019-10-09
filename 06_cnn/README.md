@@ -59,7 +59,7 @@
 
 #### Reading
 * [@ellennickles summary](https://github.com/ml5js/Intro-ML-Arts-IMA/issues/59#issuecomment-539356461) of [Datasheets for Datasets](https://arxiv.org/abs/1803.09010#) paper.
-* [A Duke study recorded thousands of students’ faces](https://www.dukechronicle.com/article/2019/06/duke-university-facial-recognition-data-set-study-surveillance-video-students-china-uyghur) by
+* [A Duke study recorded thousands of students’ faces](https://www.dukechronicle.com/article/2019/06/duke-university-facial-recognition-data-set-study-surveillance-video-students-china-uyghur) by Jake Satisky
 * [Atlanta Asks Google Whether It Targeted Black Homeless People](https://www.nytimes.com/2019/10/04/technology/google-facial-recognition-atlanta-homeless.html) by Jack Nicas, NY Times
 * [An Intuitive Explanation of Convolutional Neural Networks](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/) by Ujjwal Karn
 * [AI ‘Emotion Recognition’ can’t be Trusted](https://theverge.com/2019/7/25/8929793/emotion-recognition-analysis-ai-machine-learning-facial-expression-review) by James Vincent
