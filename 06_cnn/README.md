@@ -22,7 +22,7 @@
 * [Animating Quick, Draw! paths](https://editor.p5js.org/ima_ml/sketches/aT9zxHX7n)
 
 ### Creative Quick, Draw! projects
-* [Facets Dive x Quick, Draw!](https://pair-code.github.io/facets/quickdraw.html) by [People + AI Research Initiative (PAIR), Google](https://ai.google/pair)
+- [Exploring and Visualizing an Open Global Dataset](https://research.googleblog.com/2017/08/exploring-and-visualizing-open-global.html) by Google Research
 * [Letter collages](http://frauzufall.de/en/2017/google-quick-draw/) by [Deborah Schmidt](http://frauzufall.de/)
 * [Face tracking experiment](https://www.instagram.com/p/BUU8TuQD6_v/) by [Neil Mendoza](http://www.neilmendoza.com/)
 * [Faces of Humanity](http://project.laboiteatortue.com/facesofhumanity/) by [Tortue](www.laboiteatortue.com)
@@ -59,9 +59,29 @@
 
 #### Reading
 * [@ellennickles summary](https://github.com/ml5js/Intro-ML-Arts-IMA/issues/59#issuecomment-539356461) of [Datasheets for Datasets](https://arxiv.org/abs/1803.09010#) paper.
-* [AI ‘Emotion Recognition’ can’t be Trusted](https://theverge.com/2019/7/25/8929793/emotion-recognition-analysis-ai-machine-learning-facial-expression-review) by James Vincent
+* [A Duke study recorded thousands of students’ faces](https://www.dukechronicle.com/article/2019/06/duke-university-facial-recognition-data-set-study-surveillance-video-students-china-uyghur) by
 * [Atlanta Asks Google Whether It Targeted Black Homeless People](https://www.nytimes.com/2019/10/04/technology/google-facial-recognition-atlanta-homeless.html) by Jack Nicas, NY Times
 * [An Intuitive Explanation of Convolutional Neural Networks](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/) by Ujjwal Karn
+* [AI ‘Emotion Recognition’ can’t be Trusted](https://theverge.com/2019/7/25/8929793/emotion-recognition-analysis-ai-machine-learning-facial-expression-review) by James Vincent
 
-### Instructions
-* TBA
+### Reflection
+* Spend a few minutes playing [Quick, Draw!](https://quickdraw.withgoogle.com/) and reviewing the documentation of the [Quick, Draw! dataset](https://github.com/googlecreativelab/quickdraw-dataset). Put yourself in the shoes of the researchers at Google collecting the data and answer the following questions from the [Datasheets for Datasets](https://arxiv.org/abs/1803.09010#) to the best of your ability. If you prefer, find another dataset to analyze (the datasets described in the above readings are good choices as well.)
+    * Does the dataset contain data that might be considered confidential?
+    * Does the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety?
+    * Does the dataset identify any subpopulations of people (e.g., by age, gender)?
+    * Were individuals (e.g. players of Quick, Draw!) notified about the data collection?
+    * Did these individuals in question consent to the collection and use of their data?
+    * If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses?
+    * Are there tasks for which the dataset should not be used?
+
+### Coding Exercise
+For this week's coding exercise you can build on top of your neural network assignment from last week. Make sure to bring in the [latest ml5 build](https://github.com/ml5js/Intro-ML-Arts-IMA/blob/source/ml5_build/README.md) to your code. Here are some ideas (note I am not suggesting you do all of them, this is just a list to consider, invent your own!)
+
+* If your sketch was not working, try fixing bugs with the new ml5.js version.
+* If "classification" is more appropriate for your sketch, switch your `task` to `'classification'`.
+* Consider adding functionality to save training data or save the model (reloading it later).
+
+Instead of building on your previous assignment, you can also choose to create a new sketch inspired by the examples around classifying drawings and convolutional neural networks. For example:
+
+* Can you train your own image classifier with `ml5.neuralNetwork()`? You can build upon the (doodle classification example)[https://editor.p5js.org/ima_ml/sketches/bL6jONrFQ]. This example assumes the image data is loaded via binary files. How might you work with actual image files?
+* Can you invent a user interaction around classifying drawings building on the [ml5 DoodleNet classification example](https://editor.p5js.org/ima_ml/sketches/IbXlN6voN).
