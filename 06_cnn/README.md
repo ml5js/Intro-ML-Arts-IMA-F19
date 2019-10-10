@@ -79,7 +79,7 @@ For this week's coding exercise you can build on top of your neural network assi
 
 * If your sketch was not working, try fixing bugs with the new ml5.js version.
 * If "classification" is more appropriate for your sketch, switch your `task` to `'classification'`.
-* Consider adding functionality to save training data or save the model (reloading it later).
+* Consider adding functionality to save training data or save the model (reloading it later). A [working example of saving/loading](https://github.com/ml5js/Intro-ML-Arts-IMA/tree/source/05_diy_neural/saving_loading_data) is now available in the week 5 material (web editor version coming soon.)
 
 Instead of building on your previous assignment, you can also choose to create a new sketch inspired by the examples around classifying drawings and convolutional neural networks. For example:
 

@@ -33,7 +33,7 @@
 * [Train regression model model with Pixels](https://editor.p5js.org/ima_ml/sketches/EMDiQlIhV)
 * [Train regression model model with Face Keypoints](https://editor.p5js.org/ima_ml/sketches/US3ZX6zCD)
 * [Train classification model model with PoseNet](https://editor.p5js.org/ima_ml/sketches/P7CzYE_Tb)
-* [Saving data, model and reloading data, model](https://editor.p5js.org/ima_ml/sketches/Etmls1Eq-) -- in progress, not working as of yet
+* [Saving data, model and reloading data, model](saving_loading_data), (web editor version coming soon)
 
 ### Assignment 5 Due Sunday October 6 at 6pm
 1. Watch [Machine Learning for Human Creative Practice](https://vimeo.com/287094397), Dr. Rebecca Fiebrink at Eyeo 2018. Write a response to the following question posed by Dr. Fiebrink:
