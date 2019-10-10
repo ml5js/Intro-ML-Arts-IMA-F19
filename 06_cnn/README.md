@@ -83,5 +83,5 @@ For this week's coding exercise you can build on top of your neural network assi
 
 Instead of building on your previous assignment, you can also choose to create a new sketch inspired by the examples around classifying drawings and convolutional neural networks. For example:
 
-* Can you train your own image classifier with `ml5.neuralNetwork()`? You can build upon the (doodle classification example)[https://editor.p5js.org/ima_ml/sketches/bL6jONrFQ]. This example assumes the image data is loaded via binary files. How might you work with actual image files?
+* Can you train your own image classifier with `ml5.neuralNetwork()`? You can build upon the [doodle classification example](https://editor.p5js.org/ima_ml/sketches/bL6jONrFQ). This example assumes the image data is loaded via binary files. How might you work with actual image files?
 * Can you invent a user interaction around classifying drawings building on the [ml5 DoodleNet classification example](https://editor.p5js.org/ima_ml/sketches/IbXlN6voN).
