@@ -65,16 +65,20 @@ function setup() {
   // brain = ml5.neuralNetwork('models/model.json', brainLoaded);
 
   // Works!
-  // brain.loadData('data/poses_data.json');
+  // brain.loadData('data/poses_data.json', dataLoaded);
 
   // Works!
   // brain.load('model/model.json', brainLoaded);
 }
 
-function brainLoaded() {
-  console.log('brain loaded');
-  classify();
+function dataLoaded() {
+  console.log('data loaded');
 }
+
+// function brainLoaded() {
+//   console.log('brain loaded');
+//   classify();
+// }
 
 function saveData() {
   brain.saveData('poses_data');
