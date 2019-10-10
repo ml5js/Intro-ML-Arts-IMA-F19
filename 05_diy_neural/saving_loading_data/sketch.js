@@ -61,10 +61,13 @@ function setup() {
   }
   brain = ml5.neuralNetwork(options);
 
-  // Loading the data fails
-  brain.loadData('data/poses_data.json');
+  // Support?
+  // brain = ml5.neuralNetwork('models/model.json', brainLoaded);
 
-  // Loading the model works!
+  // Works!
+  // brain.loadData('data/poses_data.json');
+
+  // Works!
   // brain.load('model/model.json', brainLoaded);
 }
 
