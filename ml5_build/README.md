@@ -1,6 +1,6 @@
 # ml5 latest
 
-I am not longer overwriting previous builds of ml5 but instead puttin them in different branches.
+I am not longer overwriting previous builds of ml5 but instead putting them in different branches.
 
 ## 10-13-19
 ```html
