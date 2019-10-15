@@ -45,9 +45,15 @@
 * Become familiar with Magenta.js and RNN models for generating music.
 * Understand concept of “temperature” as it relates to RNNs.
 
+### Neural Networks and Music
+*  [Neural Nets for Generating Music](https://medium.com/artists-and-machine-intelligence/neural-nets-for-generating-music-f46dffac21c0) by Kyle McDonald
+
 ### Related Projects
 * [AI Duet](https://experiments.withgoogle.com/ai/ai-duet/view/) using [MelodyRNN](https://github.com/tensorflow/magenta/tree/master/magenta/models/melody_rnn) by Yotam Mann
 * [Connecting with Music Through Magenta.js](https://magenta.tensorflow.org/blog/2018/05/03/connecting-with-magenta-js/) by Tero Parviainen
+
+### LSTM
+* [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) by Christopher Olah
 
 ### Examples
 
