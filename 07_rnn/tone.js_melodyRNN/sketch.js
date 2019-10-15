@@ -22,21 +22,15 @@ const TWINKLE_TWINKLE = {
 };
 
 let synth, part;
+let melodyRNN;
+// Assume 120bpm -> * 0.5s; 4 steps per quantized quarter note -> * 0.25
+let mult = 0.5 * 0.25;
+
 
 function setup() {
   noCanvas();
-  select('#twinkle').mousePressed(playSong);
-
-  // Adapt note array to a format Tone.Part understands (objects must include a 'time' property)
-  for (note of TWINKLE_TWINKLE.notes) {
-    note.time = note.startTime;
-  }
-  part = new Tone.Part(playNote, TWINKLE_TWINKLE.notes);
-}
-
-function playNote(time, value) {
-  let duration = value.endTime - value.startTime;
-  synth.triggerAttackRelease(Tone.Frequency(value.pitch, "midi"), duration);
+  melodyRNN = new ml5MelodyRNN(modelReady);
+  select('#twinkle').mousePressed(generateMelody);
 }
 
 function playSong() {
@@ -46,4 +40,30 @@ function playSong() {
   }
   part.start(0);
   Tone.Transport.start();
+}
+
+function generateMelody() {
+  let temperature = 1.5;
+  let steps = 20;
+  melodyRNN.generate(TWINKLE_TWINKLE, steps, temperature, gotMelody);
+}
+
+function playNote(time, value) {
+  // let duration = value.endTime - value.startTime;
+  let duration = (value.quantizedEndStep - value.quantizedStartStep) * mult;
+  synth.triggerAttackRelease(Tone.Frequency(value.pitch, "midi"), duration);
+}
+
+function gotMelody(sample) {
+  console.log(sample);
+  // Adapt note array to a Tone.Part format (objects must include a 'time' property)
+  for (note of sample.notes) {
+    note.time = note.quantizedStartStep * mult;
+  }
+  part = new Tone.Part(playNote, sample.notes);
+  playSong();
+}
+
+function modelReady() {
+  console.log('music rnn ready');
 }

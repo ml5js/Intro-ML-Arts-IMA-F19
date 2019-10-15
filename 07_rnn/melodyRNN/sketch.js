@@ -1,3 +1,6 @@
+// Based on
+// https://hello-magenta.glitch.me/
+
 const TWINKLE_TWINKLE = {
   notes: [
     { pitch: 60, startTime: 0.0, endTime: 0.5 },
@@ -17,8 +20,6 @@ const TWINKLE_TWINKLE = {
   ],
   totalTime: 8
 };
-// Based on
-// https://hello-magenta.glitch.me/
 
 let melodyRNN;
 
