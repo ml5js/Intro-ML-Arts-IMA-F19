@@ -25,7 +25,7 @@
 * Session 1 (M 10/7): Image Data
 * Session 2 (W 10/9): Model Training
 
-### 7: Recurrent Neural Networks
+### 7: [Recurrent Neural Networks](07_rnn)
 * Session 1 (T 10/15): SketchRNN (Drawing)
 * Session 2 (W 10/16): Magenta (Sound)
 
