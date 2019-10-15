@@ -41,6 +41,13 @@
 ## Session B: Magenta.js (RNN with Pre-Trained Models 2)
 
 ### Objectives
+* Learn distinction between LSTM and RNN.
+* Become familiar with Magenta.js and RNN models for generating music.
+* Understand concept of “temperature” as it relates to RNNs.
+
+### Related Projects
+* [AI Duet](https://experiments.withgoogle.com/ai/ai-duet/view/) using [MelodyRNN](https://github.com/tensorflow/magenta/tree/master/magenta/models/melody_rnn) by Yotam Mann
+* [Connecting with Music Through Magenta.js](https://magenta.tensorflow.org/blog/2018/05/03/connecting-with-magenta-js/) by Tero Parviainen
 
 ### Examples
 
