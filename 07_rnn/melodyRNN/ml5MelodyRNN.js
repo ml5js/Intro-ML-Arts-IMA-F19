@@ -1,4 +1,5 @@
-
+// Based on
+// https://hello-magenta.glitch.me/
 
 class ml5MelodyRNN {
 

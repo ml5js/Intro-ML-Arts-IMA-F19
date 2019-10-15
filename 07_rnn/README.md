@@ -58,8 +58,6 @@
 ### LSTM
 * [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) by Christopher Olah
 
-### Examples
-
 ### Assignment 6 Due Sunday October 20 at 6pm
 
 #### Reading

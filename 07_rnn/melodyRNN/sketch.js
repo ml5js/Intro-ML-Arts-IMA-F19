@@ -17,6 +17,8 @@ const TWINKLE_TWINKLE = {
   ],
   totalTime: 8
 };
+// Based on
+// https://hello-magenta.glitch.me/
 
 let melodyRNN;
 
