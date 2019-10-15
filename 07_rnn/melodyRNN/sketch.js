@@ -34,7 +34,8 @@ function playSong() {
 
 function generateMelody() {
   let notes = parseInt(select('#notes').value());
-  melodyRNN.generate(TWINKLE_TWINKLE, notes, 1, gotMelody);
+  let temperature = 1.5;
+  melodyRNN.generate(TWINKLE_TWINKLE, notes, temperature, gotMelody);
 }
 
 function gotMelody(sample) {
