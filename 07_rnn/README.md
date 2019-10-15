@@ -47,10 +47,13 @@
 
 ### Neural Networks and Music
 *  [Neural Nets for Generating Music](https://medium.com/artists-and-machine-intelligence/neural-nets-for-generating-music-f46dffac21c0) by Kyle McDonald
+* [Hello Magenta Tutorial](https://hello-magenta.glitch.me/)
 
 ### Related Projects
 * [AI Duet](https://experiments.withgoogle.com/ai/ai-duet/view/) using [MelodyRNN](https://github.com/tensorflow/magenta/tree/master/magenta/models/melody_rnn) by Yotam Mann
 * [Connecting with Music Through Magenta.js](https://magenta.tensorflow.org/blog/2018/05/03/connecting-with-magenta-js/) by Tero Parviainen
+* [magenta.js projects](https://magenta.tensorflow.org/demos/web/)
+* [RUNN](http://vibertthio.com/runn/) by Vibert Thio
 
 ### LSTM
 * [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) by Christopher Olah
