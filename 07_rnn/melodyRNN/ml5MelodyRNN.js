@@ -12,7 +12,6 @@ class ml5MelodyRNN {
   }
 
   async generate(melody, rnn_steps, rnn_temperature, callback) {
-
     let qns = melody;
     if (qns.notes.length > 0 && qns.notes[0].quantizedStartStep == undefined) {
       qns = mm.sequences.quantizeNoteSequence(melody, 4);
@@ -20,9 +19,5 @@ class ml5MelodyRNN {
     let sample = await this.musicRNN.continueSequence(qns, rnn_steps, rnn_temperature);
     callback(sample);
   }
-
-
-
-
 
 }
