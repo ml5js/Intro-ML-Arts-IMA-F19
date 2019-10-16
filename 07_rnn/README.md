@@ -63,7 +63,7 @@
 * [magenta.js projects](https://magenta.tensorflow.org/demos/web/)
 * [RUNN](http://vibertthio.com/runn/) by Vibert Thio
 
-### Example Code
+### MusicRNN Examples
 * [Melody with Tone.js](https://editor.p5js.org/ima_ml/sketches/B7L-nHpE8)
 * [Generate Melody with MusicRNN](https://editor.p5js.org/ima_ml/sketches/rSZyVD1tr)
 * [Generate Melody with MusicRNN and Tone.js playback](https://editor.p5js.org/ima_ml/sketches/EgKBAeibJ)
