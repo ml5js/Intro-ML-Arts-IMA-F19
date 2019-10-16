@@ -57,7 +57,7 @@ function playNote(time, value) {
 function gotMelody(sample) {
   console.log(sample);
   // Adapt note array to a Tone.Part format (objects must include a 'time' property)
-  for (note of sample.notes) {
+  for (let note of sample.notes) {
     note.time = note.quantizedStartStep * mult;
   }
   part = new Tone.Part(playNote, sample.notes);
