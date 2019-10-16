@@ -41,8 +41,33 @@
 ## Session B: Magenta.js (RNN with Pre-Trained Models 2)
 
 ### Objectives
+* Learn distinction between LSTM and RNN.
+* Become familiar with Magenta.js and RNN models for generating music.
+* Understand concept of “temperature” as it relates to RNNs.
 
-### Examples
+### Neural Networks and Music
+* [Neural Nets for Generating Music](https://medium.com/artists-and-machine-intelligence/neural-nets-for-generating-music-f46dffac21c0) by Kyle McDonald
+* [MusicRNN Demos](https://tensorflow.github.io/magenta-js/music/demos/music_rnn.html)
+
+### Resources
+* [Parse a MIDI file into a Tone.js-friendly JSON format](https://github.com/Tonejs/Midi)
+* [Note names, MIDI numbers and frequencies](https://newt.phys.unsw.edu.au/jw/notes.html)
+* [Tone.js Documentation](https://tonejs.github.io/)
+* [Hello Magenta Tutorial](https://hello-magenta.glitch.me/)
+
+### Related Projects
+* [AI Duet](https://experiments.withgoogle.com/ai/ai-duet/view/) using [MelodyRNN](https://github.com/tensorflow/magenta/tree/master/magenta/models/melody_rnn) by Yotam Mann
+* [Connecting with Music Through Magenta.js](https://magenta.tensorflow.org/blog/2018/05/03/connecting-with-magenta-js/) by Tero Parviainen
+* [magenta.js projects](https://magenta.tensorflow.org/demos/web/)
+* [RUNN](http://vibertthio.com/runn/) by Vibert Thio
+
+### Example Code
+* [Melody with Tone.js](https://editor.p5js.org/ima_ml/sketches/B7L-nHpE8)
+* [Generate Melody with MusicRNN](https://editor.p5js.org/ima_ml/sketches/rSZyVD1tr)
+* [Generate Melody with MusicRNN and Tone.js playback](https://editor.p5js.org/ima_ml/sketches/EgKBAeibJ)
+
+### LSTM
+* [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) by Christopher Olah
 
 ### Assignment 6 Due Sunday October 20 at 6pm
 

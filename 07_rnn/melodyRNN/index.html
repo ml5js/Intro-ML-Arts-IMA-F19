@@ -1,0 +1,25 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>melodyRNN + p5</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@magenta/music@1.4.2"></script>
+</head>
+
+<body>
+  <script src="ml5MelodyRNN.js"></script>
+  <script src="sketch.js"></script>
+
+  <button id="twinkle">play twinkle twinkle</button>
+  <br />
+  <input id="notes" value="10" />
+  <button id="generate">generate melody</button>
+</body>
+
+</html>
