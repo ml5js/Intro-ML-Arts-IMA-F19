@@ -74,5 +74,20 @@
 ### Assignment 6 Due Sunday October 20 at 6pm
 
 #### Reading
+* [Markov Chains](http://setosa.io/blog/2014/07/26/markov-chains/) by Victor Powell and Lewis Lehe
+* [Neural Nets for Generating Music](https://medium.com/artists-and-machine-intelligence/neural-nets-for-generating-music-f46dffac21c0) by Kyle McDonald
+* [Teaching Machines to Draw](http://blog.otoro.net/2017/05/19/teaching-machines-to-draw/) by David Ha
+* [Connecting with Music Through Magenta.js](https://magenta.tensorflow.org/blog/2018/05/03/connecting-with-magenta-js/) by Tero Parviainen
 
 #### Instructions
+
+Use `ml5.sketchRNN()` and/or magenta.js to generate visuals and/or sound in an interactive p5.js sketch. You can invent your own creative idea or here are some suggested exercises:
+
+* As suggested by @hardmaru, implement the [RDP Line Simplification](https://editor.p5js.org/codingtrain/sketches/SQjSugKn6) algorithm in the [Interactive Drawings with SketchRNN](https://editor.p5js.org/ml5/sketches/uk4JsSRQgIY) example. Does the program perform "better" or "worse" (what does that even mean)? What is the optimal epsilon value? (A video tutorial about RDP algorithm will be shared via the mailing list.)
+* Consider the interaction design of [Interactive Drawings with SketchRNN](https://editor.p5js.org/ml5/sketches/uk4JsSRQgIY) example? How can you improve upon the user experience? Can you craft a story around the interaction or make it into a game?
+* Visualize the melody generated with MelodyRNN. magenta.js has built in functions for doing this that you can experiment with or try drawing your own visualization with p5.js.
+* Create your own version of an "AI Duet", can you build a user interaction around playing a melody that the ML model continues?
+
+Document your coding exercise and how the readings informed your work in a blog post and [link from the homework wiki page](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Assignment-7).
+
+
