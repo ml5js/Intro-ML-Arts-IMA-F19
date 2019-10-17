@@ -57,6 +57,7 @@
 * [Hello Magenta Tutorial](https://hello-magenta.glitch.me/)
 * [Background on MelodyRNN](https://github.com/tensorflow/magenta/tree/master/magenta/models/melody_rnn)
 * [Luisa Pereira's Code of Music course](https://luisaph.github.io/the-code-of-music-grad-fall-2019/)
+* [Lakh MIDI Dataset](https://colinraffel.com/projects/lmd/)
 
 ### Related Projects
 * [AI Duet](https://experiments.withgoogle.com/ai/ai-duet/view/) using [MelodyRNN](https://github.com/tensorflow/magenta/tree/master/magenta/models/melody_rnn) by Yotam Mann
