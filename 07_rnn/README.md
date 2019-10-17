@@ -30,6 +30,7 @@
 * [Magenta: Make Music and Art Using Machine Learning](https://magenta.tensorflow.org/)
 * [Handwriting Generation with RNN and p5.js](http://blog.otoro.net/2017/01/01/recurrent-neural-network-artist/)
 * [RNN for generating Baroque Music video](https://www.youtube.com/watch?v=SacogDL_4JU)
+* [Let's Read a Story](https://medium.com/ml5js/lets-read-a-story-talking-to-books-using-semantic-similarity-f283168b4264) by Itay Niv
 
 ### RDP (Ramer-Douglas-Peucker) Algorithm
 * [p5.js RDP Example](https://editor.p5js.org/codingtrain/sketches/SQjSugKn6)
