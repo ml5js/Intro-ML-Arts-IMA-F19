@@ -36,8 +36,8 @@
 * [p5.js RDP Example](https://editor.p5js.org/codingtrain/sketches/SQjSugKn6)
 
 ### SketchRNN Examples
-* [Generating Drawings with SketchRNN](https://editor.p5js.org/ml5/sketches/vSQRE1Sl7F_)
-* [Interactive Drawings with SketchRNN](https://editor.p5js.org/ml5/sketches/uk4JsSRQgIY)
+* [Generating Drawings with SketchRNN](https://editor.p5js.org/ml5/sketches/-debGKe49YB)
+* [Interactive Drawings with SketchRNN](https://editor.p5js.org/ml5/sketches/WihpJzqhkBJ)
 
 ## Session B: Magenta.js (RNN with Pre-Trained Models 2)
 
