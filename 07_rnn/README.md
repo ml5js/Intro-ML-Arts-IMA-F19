@@ -36,8 +36,8 @@
 * [p5.js RDP Example](https://editor.p5js.org/codingtrain/sketches/SQjSugKn6)
 
 ### SketchRNN Examples
-* [Generating Drawings with SketchRNN](https://editor.p5js.org/ml5/sketches/-debGKe49YB)
-* [Interactive Drawings with SketchRNN](https://editor.p5js.org/ml5/sketches/WihpJzqhkBJ)
+* [Generating Drawings with SketchRNN](https://editor.p5js.org/ml5/sketches/SketchRNN_basic)
+* [Interactive Drawings with SketchRNN](https://editor.p5js.org/ml5/sketches/SketchRNN_interactive)
 
 ## Session B: Magenta.js (RNN with Pre-Trained Models 2)
 
@@ -85,8 +85,8 @@
 
 Use `ml5.sketchRNN()` and/or magenta.js to generate visuals and/or sound in an interactive p5.js sketch. You can invent your own creative idea or here are some suggested exercises:
 
-* As suggested by @hardmaru, implement the [RDP Line Simplification](https://editor.p5js.org/codingtrain/sketches/SQjSugKn6) algorithm in the [Interactive Drawings with SketchRNN](https://editor.p5js.org/ml5/sketches/uk4JsSRQgIY) example. Does the program perform "better" or "worse" (what does that even mean)? What is the optimal epsilon value? (A video tutorial about RDP algorithm will be shared via the mailing list.)
-* Consider the interaction design of [Interactive Drawings with SketchRNN](https://editor.p5js.org/ml5/sketches/uk4JsSRQgIY) example? How can you improve upon the user experience? Can you craft a story around the interaction or make it into a game?
+* As suggested by @hardmaru, implement the [RDP Line Simplification](https://editor.p5js.org/codingtrain/sketches/SQjSugKn6) algorithm in the [Interactive Drawings with SketchRNN](https://editor.p5js.org/ml5/sketches/SketchRNN_interactive) example. Does the program perform "better" or "worse" (what does that even mean)? What is the optimal epsilon value? (A video tutorial about RDP algorithm will be shared via the mailing list.)
+* Consider the interaction design of [Interactive Drawings with SketchRNN](https://editor.p5js.org/ml5/sketches/SketchRNN_interactive) example? How can you improve upon the user experience? Can you craft a story around the interaction or make it into a game?
 * Visualize the melody generated with MelodyRNN. magenta.js has built in functions for doing this that you can experiment with or try drawing your own visualization with p5.js.
 * Create your own version of an "AI Duet", can you build a user interaction around playing a melody that the ML model continues?
 
