@@ -8,8 +8,20 @@
 
 ### Local Python Environment
 * [Python and Virtualenv Tutorial](https://youtu.be/nnhjvHYRsmM)
+* [Creation of Virtual Environments Documentation](https://docs.python.org/3/library/venv.html)
 * [ml5 charRNN training repo](https://github.com/ml5js/training-charRNN)
 * [Training Steps](training.md)
+
+### Running p5.js sketches locally
+* [node.js](https://nodejs.org/en/)
+* [git](https://git-scm.com/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [All Coding Train Workflow Videos](https://thecodingtrain.com/Tutorials/19-workflow/)
+
+### ml5.js examples
+* [charRNN Generate Text](https://github.com/ml5js/ml5-examples/tree/release/p5js/CharRNN/CharRNN_Text)
+* [charRNN Interactive Text](https://github.com/ml5js/ml5-examples/tree/release/p5js/CharRNN/CharRNN_Interactive)
+* [charRNN "stateful" Text](https://github.com/ml5js/ml5-examples/tree/release/p5js/CharRNN/CharRNN_Text_Stateful)
 
 ### Reading / Viewing
 * [Eyeo 2017 Talk](https://vimeo.com/232545219) about [Writing with the machine](https://www.robinsloan.com/notes/writing-with-the-machine/) by Robin Sloan (Text & Music)
