@@ -43,7 +43,7 @@
 
 ### 11: Final Project Proposals
 * Session 1 (M 11/11): Group 1
-* Session 2 (M 11/13): Group 2
+* Session 2 (W 11/13): Group 2
 
 ### 12: Final Project Development
 * TBD (M 11/18)
@@ -52,11 +52,11 @@
 
 ### 13: User Testing
 * Session 1 (M 12/2): Group 1
-* Session 2 (M 12/4): Group 2
+* Session 2 (W 12/4): Group 2
 
 ### 14: Final Project Presentations
 * Session 1 (M 12/9): Group 1
-* Session 2 (M 12/11): Group 2
+* Session 2 (W 12/11): Group 2
 
 ## COURSE DESCRIPTION
 
