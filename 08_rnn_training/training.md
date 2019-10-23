@@ -14,6 +14,8 @@ $ python train.py --data_path /path/to/data/file.txt
 ## With Spell
 
 ```
+pip install spell
+spell login
 spell upload input.txt
 spell run "python train.py --data_path /NAME/input.txt" -m uploads/NAME/input.txt
 ```
