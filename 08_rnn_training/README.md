@@ -50,7 +50,6 @@
 * [GitHub Pages documentation](https://pages.github.com/)
 * [GitHub Pages Video Tutorial](https://youtu.be/8HPYsDTk17A) -- this is from 2016, several things have changed, the most significant being that you no longer are required to use `gh-pages` as the branch name.
 
-
 ### Assignment:
 
 #### Reading / Viewing
@@ -59,6 +58,8 @@
 * [Adventures in Narrated Reality Part 1](https://medium.com/artists-and-machine-intelligence/adventures-in-narrated-reality-6516ff395ba3) and [Adventures in Narrated Reality Part 2](https://medium.com/artists-and-machine-intelligence/adventures-in-narrated-reality-part-ii-dc585af054cb) by Ross Goodwin
 
 #### Instructions
+We didn't get as far as I would have liked in class so some of the steps below may prove difficult for you. Please reach out if you are having trouble. At a minimum, complete steps 1 and 2 and make an attempt at Step 3. If you run into trouble, document the process in your post.
 1. Collect a text dataset. Try to achieve a minimum of 5 MB of text.
-2. Set up a local or cloud environment and train a model with your own data.
-3. Create an interactive sketch with your model and ml5.js. (Note that you will not be able to run your p5.js sketch in the editor since it does not support uploading of charRNN models. You can run your sketch locally and document the results on your blog. Include your code (an easy way is to link to a [GitHub Gist](https://gist.github.com/). If you are feeling ambitious I would suggest hosting your sketch via GitHub Pages.)
+2. Reflect on the readings above. How did they inform your choice of text data and collection process?
+3. Set up a local or cloud environment and train a model with your own data.
+4. Create an interactive sketch with your model and ml5.js. (Note that you will not be able to run your p5.js sketch in the editor since it does not support uploading of charRNN models. You can run your sketch locally and document the results on your blog. Include your code (an easy way is to link to a [GitHub Gist](https://gist.github.com/). If you are feeling ambitious I would suggest hosting your sketch via GitHub Pages.)

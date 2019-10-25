@@ -38,6 +38,7 @@
 ### SketchRNN Examples
 * [Generating Drawings with SketchRNN](https://editor.p5js.org/ml5/sketches/SketchRNN_basic)
 * [Interactive Drawings with SketchRNN](https://editor.p5js.org/ml5/sketches/SketchRNN_interactive)
+* [Interactive Drawing with SketchRNN and RDP algorithm](https://editor.p5js.org/ima_ml/sketches/fMg0FmkED)
 
 ## Session B: Magenta.js (RNN with Pre-Trained Models 2)
 
