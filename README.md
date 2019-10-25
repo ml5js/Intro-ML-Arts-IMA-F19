@@ -29,11 +29,11 @@
 * Session 1 (T 10/15): SketchRNN (Drawing)
 * Session 2 (W 10/16): Magenta (Sound)
 
-### 8: Training a RNN (Python)
+### 8: [Training a RNN (Python)](08_rnn_training)
 * Session 1 (M 10/21): Data Collection and Python Environment
 * Session 2 (W 10/23): Training and Deployment
 
-### 9: Pre-Trained Models with RunwayML
+### 9: [Pre-Trained Models with RunwayML](09_runwayML)
 * Session 1 (M 10/28): Runway Basics
 * Session 2 (W 10/30): Inputs/Outputs and Networking
 
