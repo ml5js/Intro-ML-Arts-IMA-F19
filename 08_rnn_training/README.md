@@ -50,7 +50,7 @@
 * [GitHub Pages documentation](https://pages.github.com/)
 * [GitHub Pages Video Tutorial](https://youtu.be/8HPYsDTk17A) -- this is from 2016, several things have changed, the most significant being that you no longer are required to use `gh-pages` as the branch name.
 
-### Assignment:
+### Assignment (Due Sunday Oct 27, 6pm):
 
 #### Reading / Viewing
 * [Eyeo 2017 Talk](https://vimeo.com/232545219) about [Writing with the machine](https://www.robinsloan.com/notes/writing-with-the-machine/) by Robin Sloan (Text & Music)
