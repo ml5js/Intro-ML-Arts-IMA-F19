@@ -63,3 +63,4 @@ We didn't get as far as I would have liked in class so some of the steps below m
 2. Reflect on the readings above. How did they inform your choice of text data and collection process?
 3. Set up a local or cloud environment and train a model with your own data.
 4. Create an interactive sketch with your model and ml5.js. (Note that you will not be able to run your p5.js sketch in the editor since it does not support uploading of charRNN models. You can run your sketch locally and document the results on your blog. Include your code (an easy way is to link to a [GitHub Gist](https://gist.github.com/). If you are feeling ambitious I would suggest hosting your sketch via GitHub Pages.)
+5. Link your blog post and any related materials on the [Assignment 8 Wiki](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Assignment-8).
