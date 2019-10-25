@@ -37,7 +37,7 @@
 * Session 1 (M 10/28): Runway Basics
 * Session 2 (W 10/30): Inputs/Outputs and Networking
 
-### 10: Generative Models with Runway
+### 10: [Generative Models with Runway](10_runwayML)
 * Session 1 (M 11/4): Generative Adversarial Networks
 * Session 2 (W 11/6): Interactive Image Synthesis
 
