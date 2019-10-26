@@ -33,3 +33,21 @@ python train.py --data_path=./data/file.txt \
 --save_checkpoints ./checkpoints \
 --save_model ./models
 ```
+
+# Windows Training Steps
+
+## Locally
+
+```
+# cd into the folder you want to contain python virtual environment folder
+# and training-charRNN project
+> python -m venv your_venv_name
+> your_venv_name\Scripts\Activate.ps1
+# Now you are in the virtual environment
+> git clone https://github.com/ml5js/training-charRNN
+> cd training-charRNN
+> pip install -r requirements.txt
+> python train.py --data_path /path/to/data/file.txt
+# After finishing all the training
+> deactivate
+```
