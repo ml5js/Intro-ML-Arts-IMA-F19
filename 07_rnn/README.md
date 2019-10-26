@@ -92,5 +92,3 @@ Use `ml5.sketchRNN()` and/or magenta.js to generate visuals and/or sound in an i
 * Create your own version of an "AI Duet", can you build a user interaction around playing a melody that the ML model continues?
 
 Document your coding exercise and how the readings informed your work in a blog post and [link from the homework wiki page](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Assignment-7).
-
-
