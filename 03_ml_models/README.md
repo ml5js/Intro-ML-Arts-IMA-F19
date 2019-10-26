@@ -17,9 +17,9 @@
 * [Hour of Code PoseNet video](https://youtu.be/EA3-k9mnLHs)
 
 ### ml5 code editor examples
-* [PoseNet Webcam Part Selection](https://editor.p5js.org/ml5/sketches/I-alLCVhX3S)
-* [PoseNet Webcam Full Skeleton](https://editor.p5js.org/ml5/sketches/5FZeotHo76R)
-* [PoseNet Single Image](https://editor.p5js.org/ml5/sketches/MmUoz2_thEa) -- This is broken at the moment
+* [PoseNet Webcam Part Selection](https://editor.p5js.org/ml5/sketches/PoseNet_part_selection)
+* [PoseNet Webcam Full Skeleton](https://editor.p5js.org/ml5/sketches/PoseNet_webcam)
+* [PoseNet Single Image](https://editor.p5js.org/ml5/sketches/PoseNet_image_single) -- This is broken at the moment
 * [UNet Image Segmentation](https://editor.p5js.org/ima_ml/sketches/ii30sqpgL)
 * [BodyPix Image Segmentation](https://editor.p5js.org/ima_ml/sketches/-R3ybO0uz)
 
