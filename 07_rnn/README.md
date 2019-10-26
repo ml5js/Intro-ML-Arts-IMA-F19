@@ -38,6 +38,7 @@
 ### SketchRNN Examples
 * [Generating Drawings with SketchRNN](https://editor.p5js.org/ml5/sketches/SketchRNN_basic)
 * [Interactive Drawings with SketchRNN](https://editor.p5js.org/ml5/sketches/SketchRNN_interactive)
+* [Interactive Drawing with SketchRNN and RDP algorithm](https://editor.p5js.org/ima_ml/sketches/fMg0FmkED)
 
 ## Session B: Magenta.js (RNN with Pre-Trained Models 2)
 
@@ -91,5 +92,3 @@ Use `ml5.sketchRNN()` and/or magenta.js to generate visuals and/or sound in an i
 * Create your own version of an "AI Duet", can you build a user interaction around playing a melody that the ML model continues?
 
 Document your coding exercise and how the readings informed your work in a blog post and [link from the homework wiki page](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Assignment-7).
-
-

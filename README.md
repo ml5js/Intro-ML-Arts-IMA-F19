@@ -29,21 +29,21 @@
 * Session 1 (T 10/15): SketchRNN (Drawing)
 * Session 2 (W 10/16): Magenta (Sound)
 
-### 8: Training a RNN (Python)
+### 8: [Training a RNN (Python)](08_rnn_training)
 * Session 1 (M 10/21): Data Collection and Python Environment
 * Session 2 (W 10/23): Training and Deployment
 
-### 9: Pre-Trained Models with RunwayML
+### 9: [Pre-Trained Models with RunwayML](09_runwayML)
 * Session 1 (M 10/28): Runway Basics
 * Session 2 (W 10/30): Inputs/Outputs and Networking
 
-### 10: Generative Models with Runway
+### 10: [Generative Models with Runway](10_runwayML)
 * Session 1 (M 11/4): Generative Adversarial Networks
 * Session 2 (W 11/6): Interactive Image Synthesis
 
 ### 11: Final Project Proposals
 * Session 1 (M 11/11): Group 1
-* Session 2 (M 11/13): Group 2
+* Session 2 (W 11/13): Group 2
 
 ### 12: Final Project Development
 * TBD (M 11/18)
@@ -52,11 +52,11 @@
 
 ### 13: User Testing
 * Session 1 (M 12/2): Group 1
-* Session 2 (M 12/4): Group 2
+* Session 2 (W 12/4): Group 2
 
 ### 14: Final Project Presentations
 * Session 1 (M 12/9): Group 1
-* Session 2 (M 12/11): Group 2
+* Session 2 (W 12/11): Group 2
 
 ## COURSE DESCRIPTION
 
