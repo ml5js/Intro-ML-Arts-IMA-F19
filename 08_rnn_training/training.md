@@ -20,6 +20,15 @@ spell upload input.txt
 spell run "python train.py --data_path /NAME/input.txt" -m uploads/NAME/input.txt
 ```
 
+### Certificate Fail Error
+
+If you get an error after upload, you need to run a certificate command script. Those are two separate commands. If you have a different version of Python in Applications you might need to adjust.
+
+```
+pip install certifi 
+/Applications/Python\ 3.6/Install\ Certificates.command
+```
+
 ## More Training Options
 
 ```
