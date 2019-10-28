@@ -17,7 +17,7 @@ $ python train.py --data_path /path/to/data/file.txt
 pip install spell
 spell login
 spell upload input.txt
-spell run "python train.py --data_path /NAME/input.txt" -m uploads/NAME/input.txt
+spell run "python train.py --data_path /input.txt" -m uploads/NAME/input.txt
 ```
 
 ### Certificate Fail Error
