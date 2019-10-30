@@ -33,7 +33,10 @@
 * [Networking examples and tutorials, organized by software application](https://learn.runwayml.com/#/networking/examples) 
 
 ### Code Examples
-* 
+* [Send text to RunwayML: Generate an image with AttnGAN](https://editor.p5js.org/ima_ml/sketches/wdLRWM2FY)
+* [Send webcam image to RunwayML: Photo booth with Fast Style Transfer](https://editor.p5js.org/ima_ml/sketches/qkclqJc8y)
+
+Tip: Before running your p5.js sketch, choose the model checkpoint in RunwayML (if applicable) and then start the model.
 
 ### Related Projects
 * [Projects Made with RunwayML](https://runwayml.com/madewith/)
@@ -45,8 +48,8 @@
 #### Reading / Viewing
 
 #### Instructions
-1. Research and install a model not demonstrated in class available in Runway.
-2. Create a p5.js sketch that receives data from Runway (using any model).
-3. Optionally (instead of or in addition to 2), send data to Runway or use another programming environment or software tool besides p5.js.
+1. Research and install a model not demonstrated in class available in RunwayML.
+2. Create a p5.js sketch that receives data from RunwayML (using any model).
+3. Optionally (instead of or in addition to 2), send data to RunwayML or use another programming environment or software tool besides p5.js.
 
 
