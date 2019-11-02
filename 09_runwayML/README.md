@@ -45,9 +45,11 @@ Tip: Before running your p5.js sketch, choose the model checkpoint in RunwayML (
 * [No Machine is an Island](https://medium.com/@lyxsix/no-machine-is-an-island-497e92e9927e) by Yuxi Liu and Larissa Pschetz
 * [Introspectons](https://medium.com/runwayml/introspections-9cb6660c0311) by Philipp Schmitt
 
-### Assignment:
+### Assignment (Due Sunday, Nov 3, 6pm):
 
-#### Reading / Viewing
+#### Reading
+* [Machine Learning En Plein Air: Building accessible tools for artists](https://medium.com/runwayml/machine-learning-en-plein-air-building-accessible-tools-for-artists-87bfc7f99f6b) by Cristóbal Valenzuela
+* [Runway: Adding artificial intelligence capabilities to design and creative platforms](https://nips2018creativity.github.io/doc/runway.pdf) by Cristóbal Valenzuela, Alejandro Matamala, and Anastasis Germanidis
 
 #### Instructions
 1. Research and install a model not demonstrated in class available in RunwayML.
