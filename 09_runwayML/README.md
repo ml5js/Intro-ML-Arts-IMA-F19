@@ -52,7 +52,7 @@ Tip: Before running your p5.js sketch, choose the model checkpoint in RunwayML (
 * [Runway: Adding artificial intelligence capabilities to design and creative platforms](https://nips2018creativity.github.io/doc/runway.pdf) by Cristóbal Valenzuela, Alejandro Matamala, and Anastasis Germanidis
 
 #### Instructions
-1. Research and install a model not demonstrated in class available in RunwayML.
+1. Try a model available in RunwayML that was not demonstrated in class.
 2. Create a p5.js sketch that receives data from RunwayML (using any model).
 3. Optionally (instead of or in addition to 2), send data to RunwayML or use another programming environment or software tool besides p5.js.
 4. Document your experience working with RunwayML in a blog post. Include screenshots and screen captures of your workflow. Compare and constrast working with RunwayML as a tool for machine learning as related to ml5.js, python, and any other tools explored this semester.
