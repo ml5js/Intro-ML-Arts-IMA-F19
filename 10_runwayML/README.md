@@ -8,6 +8,7 @@
 * Learn how to use RunwayML with GPU in the cloud.
 
 ### Reading / Viewing
+* [A.I. Experiments: Visualizing High-Dimensional Space](https://www.youtube.com/watch?v=wvsE8jm1GzE)
 * Octavio Good on [Generative Adversarial Networks](https://www.youtube.com/watch?v=Oqm9vsf_hvU&feature=youtu.be&t=1313) (21:54 - 28:35)
 * [GAN Lab](https://poloclub.github.io/ganlab/) by Minsuk Kahng, Nikhil Thorat, Polo Chau, Fernanda Viégas, and Martin Wattenberg
 * [Using Artificial Intelligence to Augment Human Intelligence](https://distill.pub/2017/aia/) by Shan Carter (see the first three sections for latent space descriptions)
