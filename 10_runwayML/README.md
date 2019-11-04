@@ -40,7 +40,6 @@
 
 ### Related Projects
 * [Learning to See](http://www.memo.tv/portfolio/learning-to-see/) by Memo Akten
-* [A.I. Lab Workshop: Painting Landscapes with the Body](https://github.com/ellennickles/painting-landscapes-with-the-body) ???
 * [Uncanny Road](https://cvalenzuelab.com/uncannyrd/) by Anastasis Germanidis and Cristóbal Valenzuela
 
 ### Assignment:
