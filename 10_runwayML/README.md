@@ -26,6 +26,10 @@
 * [Meet AICAN, a machine that operates as an autonomous artist](https://www.interaliamag.org/articles/ahmed-elgammal/)
 
 ### Code Examples
+* [The Coding Train Coding Challenge #150: AI Rainbows with RunwayML and p5.js](https://thecodingtrain.com/CodingChallenges/150-runway-rainbows.html)
+* [p5.js Send mouse input to RunwayML: Explore the latent space of StyleGAN](https://editor.p5js.org/ima_ml/sketches/OUDjk3H4-)
+* [p5.js Send webcam video to RunwayML: The latent space mirror of BigBiGAN](https://editor.p5js.org/ima_ml/sketches/cp87sFNRw)
+
 
 ## Session B: Interactive Image Synthesis
 
@@ -35,6 +39,9 @@
 ### Code Examples
 
 ### Related Projects
+* [Learning to See](http://www.memo.tv/portfolio/learning-to-see/) by Memo Akten
+* [A.I. Lab Workshop: Painting Landscapes with the Body](https://github.com/ellennickles/painting-landscapes-with-the-body) ???
+* [Uncanny Road](https://cvalenzuelab.com/uncannyrd/) by Anastasis Germanidis and Cristóbal Valenzuela
 
 ### Assignment:
 
