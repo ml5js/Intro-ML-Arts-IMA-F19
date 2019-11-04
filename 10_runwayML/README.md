@@ -6,6 +6,7 @@
 * Understand the basics of how the GANs and Image Colorization models in RunwayML work
 * Develop high-level understandings of nonlinear dimensionality reductions and the latent space.
 * Learn how to use RunwayML with GPU in the cloud.
+* [Slides](https://docs.google.com/presentation/d/1l4AzJjj2djIhuJXRUg74SbwBrp-v17w280Zjh1oKZ4A/edit?usp=sharing)
 
 ### Reading / Viewing
 * [Google's A.I. Experiments: Visualizing High-Dimensional Space](https://www.youtube.com/watch?v=wvsE8jm1GzE)
