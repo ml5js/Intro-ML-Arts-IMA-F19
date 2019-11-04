@@ -13,7 +13,7 @@
 * Octavio Good on [Generative Adversarial Networks](https://www.youtube.com/watch?v=Oqm9vsf_hvU&feature=youtu.be&t=1313) (21:54 - 28:35)
 * [GAN Lab](https://poloclub.github.io/ganlab/) by Minsuk Kahng, Nikhil Thorat, Polo Chau, Fernanda Viégas, and Martin Wattenberg
 * [In the Age of A.I., Is Seeing Still Believing?](https://www.newyorker.com/magazine/2018/11/12/in-the-age-of-ai-is-seeing-still-believing) by Joshua Rothman
-* [The Next Word: Where will predictive text take us?](https://www.newyorker.com/magazine/2019/10/14/can-a-machine-learn-to-write-for-the-new-yorker) by John Seabrook
+* [The Next Word: Where will predictive text take us?](https://www.newyorker.com/magazine/2019/10/14/can-a-machine-learn-to-write-for-the-new-yorker) by John Seabrook about the GPT-2 model in RunwayML
 
 ### Related Projects
 * [Playing a game of GANstruction](https://thegradient.pub/playing-a-game-of-ganstruction/) by Helena Sarin ([2019 Eyeo Talk](https://vimeo.com/354276365)]
