@@ -40,6 +40,12 @@
 * Understand how GANs can be applied to interactive systems to generate imagery.
 
 ### Code Examples
+* [Sending a semantic map to a RunwayML image synthesis model:
+SPADE-Landscapes](https://editor.p5js.org/ima_ml/sketches/dgQwdZVFA)
+
+### Semantic Maps / Image Synthesis
+* [Semantic Image Synthesis with Spatially-Adaptive Normalization](https://nvlabs.github.io/SPADE/), [original SPADE paper](https://arxiv.org/pdf/1903.07291.pdf) paper
+* [GAUGan online demo](http://nvidia-research-mingyuliu.com/gaugan/)
 
 ### Related Projects
 * [Learning to See](http://www.memo.tv/portfolio/learning-to-see/) by Memo Akten
