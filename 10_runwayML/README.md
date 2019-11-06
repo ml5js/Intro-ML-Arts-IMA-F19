@@ -45,10 +45,4 @@
 
 ### Assignment:
 
-#### Reading / Viewing
-
-#### Instructions
-1. Prepare a presentation for your final project: a few minutes of slides, computational sketches, and something to illustrate what’s in your head.
-2. Includes inspirations, source material, code, ideas for title and 1-sentence description, context, and questions for your peers.
-3. Plan to present your idea in ~2-3 minutes leaving about 5 minutes for discussion. You can present your idea however you like visually, but make sure you also document your thoughts in a blog post.
-
+Prepare a final project proposal. Follow the [Final Project Guidelines](https://github.com/ml5js/Intro-ML-Arts-IMA/tree/source/final) and link to your slides and post on the [Final Project Propsal Wiki](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Final-Proposals)
