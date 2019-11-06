@@ -30,7 +30,9 @@
 * [The Coding Train Coding Challenge #150: AI Rainbows with RunwayML and p5.js](https://thecodingtrain.com/CodingChallenges/150-runway-rainbows.html)
 * [p5.js Send mouse input to RunwayML: Explore the latent space of StyleGAN](https://editor.p5js.org/ima_ml/sketches/OUDjk3H4-)
 * [p5.js Send webcam video to RunwayML: The latent space mirror of BigBiGAN](https://editor.p5js.org/ima_ml/sketches/cp87sFNRw)
-
+* [Generate StyleGAN Image](https://editor.p5js.org/ima_ml/sketches/GOiFqtbkK)
+* [Interpolate StyleGAN Image](https://editor.p5js.org/ima_ml/sketches/dyJmIybwi-)
+* [Wandering Latent Space StyleGAN](https://editor.p5js.org/ima_ml/sketches/7YZzS37yh)
 
 ## Session B: Interactive Image Synthesis
 
