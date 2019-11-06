@@ -41,7 +41,7 @@
 * Session 1 (M 11/4): Generative Adversarial Networks
 * Session 2 (W 11/6): Interactive Image Synthesis
 
-### 11: Final Project Proposals
+### 11: [Final Project Proposals](final)
 * Session 1 (M 11/11): Group 1
 * Session 2 (W 11/13): Group 2
 
