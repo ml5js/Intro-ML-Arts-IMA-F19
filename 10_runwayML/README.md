@@ -28,8 +28,9 @@
 
 ### Code Examples
 * [The Coding Train Coding Challenge #150: AI Rainbows with RunwayML and p5.js](https://thecodingtrain.com/CodingChallenges/150-runway-rainbows.html)
-* [p5.js Send mouse input to RunwayML: Explore the latent space of StyleGAN](https://editor.p5js.org/ima_ml/sketches/OUDjk3H4-)
-* [p5.js Send webcam video to RunwayML: The latent space mirror of BigBiGAN](https://editor.p5js.org/ima_ml/sketches/cp87sFNRw)
+* [Send mouse input to RunwayML](https://editor.p5js.org/ima_ml/sketches/OUDjk3H4-)
+* [Send webcam video to RunwayML - HTTP](https://editor.p5js.org/ima_ml/sketches/cp87sFNRw)
+* [Send webcam video to RunwayML - Socket.io](https://editor.p5js.org/ima_ml/sketches/1wLmWw0XI)
 * [Generate StyleGAN Image](https://editor.p5js.org/ima_ml/sketches/GOiFqtbkK)
 * [Interpolate StyleGAN Image](https://editor.p5js.org/ima_ml/sketches/dyJmIybwi-)
 * [Wandering Latent Space StyleGAN](https://editor.p5js.org/ima_ml/sketches/7YZzS37yh)
@@ -40,8 +41,8 @@
 * Understand how GANs can be applied to interactive systems to generate imagery.
 
 ### Code Examples
-* [Sending a semantic map to a RunwayML image synthesis model:
-SPADE-Landscapes](https://editor.p5js.org/ima_ml/sketches/dgQwdZVFA)
+* [Send semantic map to a RunwayML SPADE-Landscapes - HTTP](https://editor.p5js.org/ima_ml/sketches/dgQwdZVFA)
+* [Send semantic map to a RunwayML SPADE-Landscapes - Socket.io](https://editor.p5js.org/ima_ml/sketches/C0YMZwnCa)
 
 ### Semantic Maps / Image Synthesis
 * [Semantic Image Synthesis with Spatially-Adaptive Normalization](https://nvlabs.github.io/SPADE/), [original SPADE paper](https://arxiv.org/pdf/1903.07291.pdf) paper
@@ -50,6 +51,7 @@ SPADE-Landscapes](https://editor.p5js.org/ima_ml/sketches/dgQwdZVFA)
 ### Related Projects
 * [Learning to See](http://www.memo.tv/portfolio/learning-to-see/) by Memo Akten
 * [Uncanny Road](https://cvalenzuelab.com/uncannyrd/) by Anastasis Germanidis and Cristóbal Valenzuela
+* [AI Lab Workshop: Painting Landscapes with the Body](https://github.com/ellennickles/painting-landscapes-with-the-body)
 
 ### Assignment:
 
