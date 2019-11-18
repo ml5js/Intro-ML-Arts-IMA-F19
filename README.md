@@ -44,9 +44,9 @@
 ### 11: [Final Project Proposals](final)
 * Session 1 (M 11/11): Group 1
 * Session 2 (W 11/13): Group 2
+* Session 3 (M 11/18): Group 3
 
 ### 12: Final Project Development
-* TBD (M 11/18)
 * TBD (W 11/20)
 * TBD (M 11/25)
 
