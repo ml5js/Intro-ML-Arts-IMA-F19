@@ -46,9 +46,9 @@
 * Session 2 (W 11/13): Group 2
 * Session 3 (M 11/18): Group 3
 
-### 12: Final Project Development
-* TBD (W 11/20)
-* TBD (M 11/25)
+### 12: [Final Project Development](final)
+* Session 1 (W 11/20)
+* Session 2 (M 11/25)
 
 ### 13: User Testing
 * Session 1 (M 12/2): Group 1
