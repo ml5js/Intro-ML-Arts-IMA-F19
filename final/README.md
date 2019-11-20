@@ -32,6 +32,10 @@ Document the above elements in a blog post and selectively edit the material to 
 * Is the scope reasonable? Can it be done in such a short period of time?
 * Any suggestions for relevant tutorials, examples, or other resources?
 
+## Workshop and Individual Meetings
+These two sessions are dedicated to time to make progress on your project. Make a goal for yourself for each session and check the schedule for your assigned meeting time. There will also be time to informally ask questions or have additional individual discussions about your project.
+* [Wednesday, Nov 20](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Final-Workshop)
+* [Monday, Nov 25](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Final-Workshop)
 
 ## User Testing Guidelines
 
