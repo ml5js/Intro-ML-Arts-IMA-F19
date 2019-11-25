@@ -38,9 +38,9 @@ These two sessions are dedicated to time to make progress on your project. Make 
 * [Monday, Nov 25](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Final-Workshop)
 
 ## User Testing Guidelines
-
-* TBA
+The testing will follow a speed "round robin" format. There will be two sessions - for each session half the students will set up projects in the class room and the other half will "view" or "interact with" or "listen to" your project for ~10 minutes.
+* [Monday, Dec 2](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Final-Testing)
+* [Wednesday, Dec 4](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Final-Testing)
 
 ## Final Documentation Guidelines
-
 * TBA
