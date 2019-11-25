@@ -50,7 +50,7 @@
 * Session 1 (W 11/20)
 * Session 2 (M 11/25)
 
-### 13: User Testing
+### 13: [Final Project Testing](final)
 * Session 1 (M 12/2): Group 1
 * Session 2 (W 12/4): Group 2
 
