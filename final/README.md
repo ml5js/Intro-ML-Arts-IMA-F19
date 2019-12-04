@@ -43,7 +43,7 @@ The testing will follow a speed "round robin" format. There will be two sessions
 * [Wednesday, Dec 4](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Final-Testing)
 
 ## Final Presentation and Documentation Guidelines
-Final project presentations are [**Monday, December 9th and Wednesday, December 11th, please check your assigned day / time**](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Final-Presentations). In class presentations will be approximately 8 minutes each, I will be strict about the time to keep everything fair. 
+Final project presentations are **Monday, December 9th and Wednesday, December 11th, [please check your assigned day / time**](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Final-Presentations). In class presentations will be approximately 8 minutes each, I will be strict about the time to keep everything fair. 
 
 Please post your final project documentation to a web page (blog post is fine) and link next to your name on the [final presentation wiki](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Final-Presentations). This is due **Friday, December 13**.
 
