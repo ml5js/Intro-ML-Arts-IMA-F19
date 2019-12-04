@@ -43,4 +43,21 @@ The testing will follow a speed "round robin" format. There will be two sessions
 * [Wednesday, Dec 4](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Final-Testing)
 
 ## Final Documentation Guidelines
-* TBA
+Final project presentations are [**Monday, Deember 9th and Wednesday, December 11th, please check your assigned day / time**](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Final-Presentations). In class presentations will be approximately 8 minutes each, I will be strict about the time to keep everything fair. 
+
+Please post your final project documentation to a web page (blog post is fine) and link next to your name on the [final presentation wiki](https://github.com/ml5js/Intro-ML-Arts-IMA/wiki/Final-Presentations). This is due **Friday, December 13**.
+
+Final Project presentations are demonstrations and do not require a slide deck, however, you might find slides useful to help you plan and structure your demo and discussion. Your documentation should come in written form (equivalent of 1-3 pages) as a blog post (or alternatively google doc). It's up to you to figure out how to best document your project, at a minimum, please include the following:
+
+* Title
+* Sketch link
+* One sentence description
+* Project summary (250-500 words)
+* Inspiration: How did you become interested in this idea? Quotes, photographs, products, projects, people, music, political events, social ills, etc.
+* Process: How did you make this? What did you struggle with? What were you able to implement easily and what was difficult?
+* Audience/Context: Who is this for? How will people experience it? Is it interactive? Is it practical? Is it for fun? Is it emotional? Is it to provoke something?
+* User testing: What was the result of user testing? How did you apply any feedback?
+* Source code
+* Code references: What examples, tutorials, references did you use to create the project? (You must cite the source of any code you use in code comments. Please note the following additional expectations and guidelines at the bottom of this page.)
+* Next steps: If you had more time to work on this, what would you do next?
+
